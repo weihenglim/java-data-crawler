@@ -25,12 +25,7 @@ public class web {
 			System.out.println(date.getSevendays().get(i));
 		}
 
-		// crawler crawl = new
-		// crawlreddit("https://www.reddit.com/r/BitcoinMarkets/search/?q=", testDate);
-		// // create the
-		// object
-		// and fid
-		// the date
+
 		Set<String> postLink = new LinkedHashSet<>();
 
 		// String title = crawlSearchpost.getData().title();
@@ -82,10 +77,11 @@ public class web {
 			Elements comments = editeddata.getElementsByClass("_3tw__eCCe7j-epNCKGXUKk");
 			// 2nd loop all the comment 
 		
-				for (int i = 0; i < 10; i++) {
+				for (int i = 0; i < 10; i++) { // get 10 times 
+					 //here if u wan to add to arraylist FOR COMMENTS
 					System.out.println("*this comment* " + comments.get(i).text() + "\n");
 				}
-		 //here if u wan to add to arraylist FOR COMMENTS
+		
 				
 			
 			System.out.println("----------------------- pull 1 day data end -------------------");
