@@ -1,7 +1,11 @@
-<%@ page language="java" import="analyzercrawler.helper, analyzercrawler.jsphelper"%>
+<%@ page language="java" import="analyzercrawler.helper, analyzercrawler.jsphelper,java.util.*"%>
 <%
-	String path = request.getParameter("path");
+	String key = request.getParameter("keyword");
+	String path = request.getParameter("pathLink");
 	String comments;
+	String[] commentArr;
+	commentArr = new String[1000];
+	int index = 0;
 %>
 <!DOCTYPE html>
 <html>
@@ -12,28 +16,37 @@
 	<body>
 		<h1>Local Dataset Analyzer</h1>
 		<%
-			if(path == "")
+			if(key == "")
 			{
 		%>
 			<h2>Input Field is Empty!</h2>
-			<p>Click <a href="analyzelocaldata.jsp">here</a> to try again.</p>
+			<form>
+				<input type="button" value="Try Again" onclick="history.back()">
+			</form>
 		<%
 			}
 			else
 			{
 		%>
-			<h2>Data Successfully Retrieved from</h2>
+			<h2>Data Successfully Filtered from</h2>
 			<p><% out.print(path); %></p>
-			<h3>Information from dataset:</h3>
-			<form action="analyzelocaldatasetFilter.jsp" method="POST">
-				<input type="text" name="keyword" placeholder="What to find out on?">
-				<input type="hidden" name="pathLink" value="<%=path %>">
-				<input type="submit" value="Filter">
-			</form>
-			<br>
+			<h3>Information Filtered:</h3>
+			<p><em>Keyword: <%=key %></em></p>
 		<%
-				comments = analyzercrawler.helper.readFile(path);
-				out.print(analyzercrawler.jsphelper.commentReplacer(comments));
+			comments = analyzercrawler.helper.readFile(path);
+			commentArr = analyzercrawler.jsphelper.commentFilter(comments, key);
+			while(true)
+			{
+				out.print(commentArr[index]);
+				index++;
+				out.print(commentArr[index]);
+				index++;
+				out.print("<br>");
+				if(commentArr[index] == null)
+				{
+					break;
+				}
+			}
 		%>
 			<p>------------------------------------------------------------------------------------------</p>
 			<p><b>You have reached the end of the data. Click <a href="index.jsp">here</a> to exit.</b></p>

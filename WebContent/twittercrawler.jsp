@@ -10,6 +10,7 @@
 		<form action="twitterHandlerSV.jsp" method="POST">
 			<input type="text" name="date" placeholder="Date? E.g. 2020-02-17">
 			<input type="text" name="keyword" placeholder="What to find out on?">
+			<input type="text" name="amount" placeholder="How many tweets?">
 			<input type="text" name="path" placeholder="Where to save the file?">
 			<input type="submit" value="Fetch!">
 		</form>

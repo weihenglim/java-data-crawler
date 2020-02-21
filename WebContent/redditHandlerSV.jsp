@@ -25,12 +25,11 @@
 			{
 		%>
 			<h2>Data Successfully Crawled!</h2>
-			<h3>Results:</h3>
 		<%
-				analyzercrawler.RedditCrawler userInput = new analyzercrawler.RedditCrawler(subreddit, flair, "top", analyzercrawler.helper.pathRewrite(path));
-				out.print(userInput.findComments(key));
+				analyzercrawler.RedditCrawler userInput = new analyzercrawler.RedditCrawler(subreddit, flair, "top", path);
+				userInput.searchCommentsByKeyword(key);
 		%>
-			<p>You have reached the end of the data. Click <a href="index.jsp">here</a> to return.</p>
+			<p>Click <a href="analyzelocaldata.jsp">here</a> to view data.</p>
 		<%
 			}
 		%>

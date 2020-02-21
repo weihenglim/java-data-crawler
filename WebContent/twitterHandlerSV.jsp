@@ -1,6 +1,7 @@
-<%@ page language="java" import="analyzercrawler.TwitterCrawler"%>
+<%@ page language="java" import="analyzercrawler.TwitterCrawler,analyzercrawler.Date"%>
 <%
 	String date = request.getParameter("date");
+
 	String key = request.getParameter("keyword");
 	String path = request.getParameter("path");
 %>
@@ -24,12 +25,11 @@
 			{
 		%>
 			<h2>Data Successfully Crawled!</h2>
-			<h3>Results:</h3>
 		<%
-				analyzercrawler.TwitterCrawler userInput = new analyzercrawler.TwitterCrawler(key, date, path);
-				out.print(userInput.findComments());
+				analyzercrawler.TwitterCrawler userInput = new analyzercrawler.TwitterCrawler(100);
+				userInput.searchTweetsByKeyword(key, );
 		%>
-			<p>You have reached the end of the data. Click <a href="index.jsp">here</a> to return.</p>
+			<p>Click <a href="analyzelocaldata.jsp">here</a> to view data.</p>
 		<%
 			}
 		%>
