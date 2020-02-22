@@ -34,15 +34,21 @@
 		<%
 				if(path.contains("#"))
 				{
+					/* Calls the method TwitterCrawler to retrieve information from text file */
 					comments = analyzercrawler.helper.readFile(path);
+					/* Calls the method commentReplacer to remove unecessary characters from text file */
 					comments = analyzercrawler.jsphelper.commentReplacerTweet(comments);
+					/* totalComments returns the numer of tweets with keyword */
 					out.print("<p>Total number of Tweets: " + analyzercrawler.jsphelper.totalComments(comments, "T") + "</p>");
 					out.print(comments);
 				}
 				else
 				{
+					/* Calls the method RedditCrawler to retrieve information from text file */
 					comments = analyzercrawler.helper.readFile(path);
+					/* Calls the method commentReplacer to remove unecessary characters from text file */
 					comments = analyzercrawler.jsphelper.commentReplacerReddit(comments);
+					/* totalComments returns the numer of comments with keyword */
 					out.print("<p>Total number of Comments: " + analyzercrawler.jsphelper.totalComments(comments, "R") + "</p>");
 					out.print(comments);
 				}
@@ -59,7 +65,8 @@
   			<a href="index.jsp" class="active">Home</a> | 
   			<a href="redditcrawler.jsp" class="active">Reddit Crawler</a> | 
   			<a href="twittercrawler.jsp" class="active">Twitter Crawler</a> | 
-  			<a href="analyzelocaldata.jsp" class="active">Analyze Data Set</a>
+  			<a href="analyzelocaldata.jsp" class="active">Analyze Dataset</a> | 
+  			<a href="analyzemultidata.jsp" class="active">Analyze Multiple Datasets</a>
 		</div>
 	</body>
 </html>

@@ -26,10 +26,13 @@
 		%>
 			<h2>Data Successfully Crawled!</h2>
 		<%
+				/* Calls the RedditCrawler method with user's choice of subreddit, flair and directory to store data */
 				analyzercrawler.TwitterCrawler userInput = new analyzercrawler.TwitterCrawler(100, path);
 				userInput.searchTweetsByKeyword(key, cDate);
 		%>
 			<p>Click <a href="analyzelocaldata.jsp">here</a> to view data.</p>
+			<br>
+			<em>NOTE: Twitter only allows crawling up to 7 days back</em>
 		<%
 			}
 		%>
@@ -38,7 +41,8 @@
   			<a href="index.jsp" class="active">Home</a> | 
   			<a href="redditcrawler.jsp" class="active">Reddit Crawler</a> | 
   			<a href="twittercrawler.jsp" class="active">Twitter Crawler</a> | 
-  			<a href="analyzelocaldata.jsp" class="active">Analyze Data Set</a>
+  			<a href="analyzelocaldata.jsp" class="active">Analyze Dataset</a> | 
+  			<a href="analyzemultidata.jsp" class="active">Analyze Multiple Datasets</a>
 		</div>
 	</body>
 </html>

@@ -34,16 +34,23 @@
 		<%
 			if(path.contains("#"))
 			{
+				/* Calls the method TwitterCrawler to retrieve information from text file */
 				comments = analyzercrawler.helper.readFile(path);
+				/* Calls commentFilter method to remove unecessary characters and return as array with specified keyword */
 				commentArr = analyzercrawler.jsphelper.commentFilterTweet(comments, key);
+				/* totalComments returns the numer of tweets with keyword */
 				out.print("<p><em>Keyword: " + key + " | Number of Tweets with keyword: " + analyzercrawler.jsphelper.totalKeyword(commentArr) + "</em></p>");
 			}
 			else
 			{
+				/* Calls the method RedditCrawler to retrieve information from text file */
 				comments = analyzercrawler.helper.readFile(path);
+				/* Calls commentFilter method to remove unecessary characters and return as array with specified keyword */
 				commentArr = analyzercrawler.jsphelper.commentFilterReddit(comments, key);
+				/* totalComments returns the numer of comments with keyword */
 				out.print("<p><em>Keyword: " + key + " | Number of Comments with keyword: " + analyzercrawler.jsphelper.totalKeyword(commentArr) + "</em></p>");
 			}
+			/* To print out the information contained inside the text file */
 			while(true)
 			{
 				out.print(commentArr[index]);
@@ -69,7 +76,8 @@
   			<a href="index.jsp" class="active">Home</a> | 
   			<a href="redditcrawler.jsp" class="active">Reddit Crawler</a> | 
   			<a href="twittercrawler.jsp" class="active">Twitter Crawler</a> | 
-  			<a href="analyzelocaldata.jsp" class="active">Analyze Data Set</a>
+  			<a href="analyzelocaldata.jsp" class="active">Analyze Dataset</a> | 
+  			<a href="analyzemultidata.jsp" class="active">Analyze Multiple Datasets</a>
 		</div>
 	</body>
 </html>

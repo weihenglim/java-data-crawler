@@ -26,6 +26,7 @@
 		%>
 			<h2>Data Successfully Crawled!</h2>
 		<%
+				/* Calls the RedditCrawler method with user's choice of subreddit, flair and directory to store data */
 				analyzercrawler.RedditCrawler userInput = new analyzercrawler.RedditCrawler(subreddit, flair, "top", path);
 				userInput.searchCommentsByKeyword(key);
 		%>
@@ -33,12 +34,15 @@
 		<%
 			}
 		%>
+		<br>
+			<em>NOTE: If nothing is saved to your directory, it means that the file path is wrong</em>
 		<div class="navbar">
 			<br>
   			<a href="index.jsp" class="active">Home</a> | 
   			<a href="redditcrawler.jsp" class="active">Reddit Crawler</a> | 
   			<a href="twittercrawler.jsp" class="active">Twitter Crawler</a> | 
-  			<a href="analyzelocaldata.jsp" class="active">Analyze Data Set</a>
+  			<a href="analyzelocaldata.jsp" class="active">Analyze Dataset</a> | 
+  			<a href="analyzemultidata.jsp" class="active">Analyze Multiple Datasets</a>
 		</div>
 	</body>
 </html>

@@ -1,13 +1,14 @@
 package analyzercrawler;
 
-import java.util.*;
-
 /* 
 	This class contains all the miscellaneous methods, variables & fields that will be used in JSP environment
 */
 
 public class jsphelper
 {
+	/*
+	 * 	Remove unnecessary characters from the String
+	 */
 	public static String commentReplacerReddit(String comments)
 	{
 		comments = comments.replace("[","");
@@ -17,7 +18,6 @@ public class jsphelper
 		comments = comments.replace("}","");
 		return comments;
 	}
-	
 	public static String commentReplacerTweet(String comments)
 	{
 		comments = comments.replace("[","");
@@ -29,7 +29,9 @@ public class jsphelper
 		comments = comments.replace(",","&nbsp&nbsp&nbsp&nbsp&nbsp");
 		return comments;
 	}
-	
+	/*
+	 * 	Filter the String and return as an Array based on the keyword
+	 */
 	public static String[] commentFilterReddit(String comments, String key)
 	{
 		String[] newArr, commentArr;
@@ -52,7 +54,6 @@ public class jsphelper
 		}
 		return newArr;
 	}
-	
 	public static String[] commentFilterTweet(String comments, String key)
 	{
 		String[] newArr, commentArr;
@@ -78,7 +79,9 @@ public class jsphelper
 		}
 		return newArr;
 	}
-	
+	/*
+	 * 	Returns the total number of comments/tweets
+	 */
 	public static String totalComments(String comment, String index)
 	{
 		String[] commentArr;
@@ -96,7 +99,9 @@ public class jsphelper
 			return String.valueOf(amount);
 		}
 	}
-	
+	/*
+	 * 	Returns the total number of comments/tweets with keyword
+	 */
 	public static String totalKeyword(String[] commentArr)
 	{
 		int amount = 0;
