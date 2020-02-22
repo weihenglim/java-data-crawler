@@ -8,7 +8,8 @@
 		<h1>Local Dataset Analyzer</h1>
 		<h2>Please enter the directory of the data: </h2>
 		<form action="analyzelocaldataSV.jsp" method="POST">
-			<input type="text" name="path" placeholder="Dataset Path">
+			<input type="file" name="path" size="40" />
+			<!--<input type="text" name="path" placeholder="Dataset Path">-->
 			<input type="submit" value="Analyze!">
 		</form>
 		<br>
