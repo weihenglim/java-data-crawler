@@ -32,8 +32,20 @@
 			</form>
 			<br>
 		<%
-				comments = analyzercrawler.helper.readFile(path);
-				out.print(analyzercrawler.jsphelper.commentReplacer(comments));
+				if(path.contains("#"))
+				{
+					comments = analyzercrawler.helper.readFile(path);
+					comments = analyzercrawler.jsphelper.commentReplacerTweet(comments);
+					out.print("<p>Total number of Tweets: " + analyzercrawler.jsphelper.totalComments(comments, "T") + "</p>");
+					out.print(comments);
+				}
+				else
+				{
+					comments = analyzercrawler.helper.readFile(path);
+					comments = analyzercrawler.jsphelper.commentReplacerReddit(comments);
+					out.print("<p>Total number of Comments: " + analyzercrawler.jsphelper.totalComments(comments, "R") + "</p>");
+					out.print(comments);
+				}
 		%>
 			<p>------------------------------------------------------------------------------------------</p>
 			<p><b>You have reached the end of the data. Click <a href="index.jsp">here</a> to exit.</b></p>
@@ -44,10 +56,10 @@
 		%>
 		<div class="navbar">
 			<br>
-  			<a href="index.jsp" class="active">Home</a> |
-  			<a href="twittercrawler.jsp" class="active">Twitter Crawler</a> |
-  			<a href="analyzelocaldata.jsp" class="active">Analyze Data Set</a> |
-  			<a href="" class="active">Analyze BitCoin Market</a> |
+  			<a href="index.jsp" class="active">Home</a> | 
+  			<a href="redditcrawler.jsp" class="active">Reddit Crawler</a> | 
+  			<a href="twittercrawler.jsp" class="active">Twitter Crawler</a> | 
+  			<a href="analyzelocaldata.jsp" class="active">Analyze Data Set</a>
 		</div>
 	</body>
 </html>

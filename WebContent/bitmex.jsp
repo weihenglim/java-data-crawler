@@ -2,15 +2,15 @@
 <html>
 	<head>
 		<meta charset="ISO-8859-1">
-		<title>Reddit Crawler</title>
+		<title>BitMEX Crawler</title>
 	</head>
 	<body>
-		<h1>Reddit Crawler</h1>
+		<h1>BitMEX Crawler</h1>
 		<h2>What do you want to find out more on?</h2>
-		<form action="redditHandlerSV.jsp" method="POST">
-			<input type="text" name="subreddit" placeholder="Subreddit">
-			<input type="text" name="flair" placeholder="Flair">
-			<input type="text" name="keyword" placeholder="What to find out on?">
+		<form action="bitmexHandlerSV.jsp" method="POST">
+			<input type="text" name="symbol" placeholder="Symbol">
+			<input type="text" name="start" placeholder="Start Date">
+			<input type="text" name="end" placeholder="End Date">
 			<input type="text" name="path" placeholder="Where to save the file?">
 			<input type="submit" value="Fetch!">
 		</form>

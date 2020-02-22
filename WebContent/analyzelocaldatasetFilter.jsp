@@ -31,10 +31,19 @@
 			<h2>Data Successfully Filtered from</h2>
 			<p><% out.print(path); %></p>
 			<h3>Information Filtered:</h3>
-			<p><em>Keyword: <%=key %></em></p>
 		<%
-			comments = analyzercrawler.helper.readFile(path);
-			commentArr = analyzercrawler.jsphelper.commentFilter(comments, key);
+			if(path.contains("#"))
+			{
+				comments = analyzercrawler.helper.readFile(path);
+				commentArr = analyzercrawler.jsphelper.commentFilterTweet(comments, key);
+				out.print("<p><em>Keyword: " + key + " | Number of Tweets with keyword: " + analyzercrawler.jsphelper.totalKeyword(commentArr) + "</em></p>");
+			}
+			else
+			{
+				comments = analyzercrawler.helper.readFile(path);
+				commentArr = analyzercrawler.jsphelper.commentFilterReddit(comments, key);
+				out.print("<p><em>Keyword: " + key + " | Number of Comments with keyword: " + analyzercrawler.jsphelper.totalKeyword(commentArr) + "</em></p>");
+			}
 			while(true)
 			{
 				out.print(commentArr[index]);
@@ -57,10 +66,10 @@
 		%>
 		<div class="navbar">
 			<br>
-  			<a href="index.jsp" class="active">Home</a> |
-  			<a href="twittercrawler.jsp" class="active">Twitter Crawler</a> |
-  			<a href="analyzelocaldata.jsp" class="active">Analyze Data Set</a> |
-  			<a href="" class="active">Analyze BitCoin Market</a> |
+  			<a href="index.jsp" class="active">Home</a> | 
+  			<a href="redditcrawler.jsp" class="active">Reddit Crawler</a> | 
+  			<a href="twittercrawler.jsp" class="active">Twitter Crawler</a> | 
+  			<a href="analyzelocaldata.jsp" class="active">Analyze Data Set</a>
 		</div>
 	</body>
 </html>

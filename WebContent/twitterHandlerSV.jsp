@@ -1,7 +1,7 @@
 <%@ page language="java" import="analyzercrawler.TwitterCrawler,analyzercrawler.Date"%>
 <%
 	String date = request.getParameter("date");
-
+	analyzercrawler.Date cDate = new analyzercrawler.Date(date);
 	String key = request.getParameter("keyword");
 	String path = request.getParameter("path");
 %>
@@ -26,8 +26,8 @@
 		%>
 			<h2>Data Successfully Crawled!</h2>
 		<%
-				analyzercrawler.TwitterCrawler userInput = new analyzercrawler.TwitterCrawler(100);
-				userInput.searchTweetsByKeyword(key, );
+				analyzercrawler.TwitterCrawler userInput = new analyzercrawler.TwitterCrawler(100, path);
+				userInput.searchTweetsByKeyword(key, cDate);
 		%>
 			<p>Click <a href="analyzelocaldata.jsp">here</a> to view data.</p>
 		<%
@@ -35,10 +35,10 @@
 		%>
 		<div class="navbar">
 			<br>
-  			<a href="index.jsp" class="active">Home</a> |
-  			<a href="twittercrawler.jsp" class="active">Twitter Crawler</a> |
-  			<a href="analyzelocaldata.jsp" class="active">Analyze Data Set</a> |
-  			<a href="" class="active">Analyze BitCoin Market</a> |
+  			<a href="index.jsp" class="active">Home</a> | 
+  			<a href="redditcrawler.jsp" class="active">Reddit Crawler</a> | 
+  			<a href="twittercrawler.jsp" class="active">Twitter Crawler</a> | 
+  			<a href="analyzelocaldata.jsp" class="active">Analyze Data Set</a>
 		</div>
 	</body>
 </html>

@@ -15,11 +15,13 @@ import java.io.File;
 public class TwitterCrawler {
     private int pageCount;
     private Twitter twitter;
+    /* ##Introduced this to allow user to select where to save the file## */
+    private String path;
 
     /*
      * Constructor
      */
-    public TwitterCrawler(int pageCount) {
+    public TwitterCrawler(int pageCount, String path) {
         this.pageCount = pageCount;
 
         ConfigurationBuilder cb = new ConfigurationBuilder();
@@ -28,8 +30,9 @@ public class TwitterCrawler {
         .setOAuthConsumerSecret("hRzq2LJYvU7mnN5q9IJceiQvNnlMmzlxPBRFAzXXcwFBx6oRcm")
         .setOAuthAccessToken("826091506591150080-zhJRmDUg7XFsOe0Ku4YaQaB1M1Tcc8B")
         .setOAuthAccessTokenSecret("cLzg9NmHykEZbvoNNP1DvZKgcy5PSbtdjj7kxBGMY3ILU");
-
         this.twitter = new TwitterFactory(cb.build()).getInstance();
+        
+        this.path = path;
     }
 
     /*
@@ -43,7 +46,7 @@ public class TwitterCrawler {
         Date[] dates = date.nextNDays(1);
 
         /* File path to check/store comments */
-        String path = String.format("../data/Twitter/%s-%s.txt", keyword, date.toStringFor("twitter"));
+        String path = String.format("%s\\%s-%s.txt", this.path, keyword, date.toStringFor("twitter"));
 
         File tweetsFile = new File(path);
 

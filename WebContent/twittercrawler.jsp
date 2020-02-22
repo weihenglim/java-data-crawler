@@ -19,9 +19,9 @@
 		<div class="navbar">
 			<br>
   			<a href="index.jsp" class="active">Home</a> | 
+  			<a href="redditcrawler.jsp" class="active">Reddit Crawler</a> | 
   			<a href="twittercrawler.jsp" class="active">Twitter Crawler</a> | 
-  			<a href="analyzelocaldata.jsp" class="active">Analyze Data Set</a> | 
-  			<a href="" class="active">Analyze BitCoin Market</a>
+  			<a href="analyzelocaldata.jsp" class="active">Analyze Data Set</a>
 		</div>
 	</body>
 </html>

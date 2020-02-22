@@ -2,17 +2,15 @@
 <html>
 	<head>
 		<meta charset="ISO-8859-1">
-		<title>Reddit Crawler</title>
+		<title>Multiple Dataset Analyzer</title>
 	</head>
 	<body>
-		<h1>Reddit Crawler</h1>
-		<h2>What do you want to find out more on?</h2>
-		<form action="redditHandlerSV.jsp" method="POST">
-			<input type="text" name="subreddit" placeholder="Subreddit">
-			<input type="text" name="flair" placeholder="Flair">
-			<input type="text" name="keyword" placeholder="What to find out on?">
-			<input type="text" name="path" placeholder="Where to save the file?">
-			<input type="submit" value="Fetch!">
+		<h1>Multiple Dataset Analyzer</h1>
+		<h2>Please enter the directory of the two data: </h2>
+		<form action="analyzemultidataSV.jsp" method="POST">
+			<input type="text" name="path1" placeholder="Dataset 1 Path">
+			<input type="text" name="path2" placeholder="Dataset 2 Path">
+			<input type="submit" value="Analyze!">
 		</form>
 		<br>
 		<em>NOTE: Process may take quite some time, please wait for the page to load</em>
