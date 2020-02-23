@@ -2,10 +2,10 @@ import org.jsoup.select.Elements;
 import org.jsoup.nodes.Element;
 import org.jsoup.nodes.Document;
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.io.File;
 import org.json.JSONArray;
-
-import java.io.*;
+import org.json.JSONObject;
 
 public class RedditCrawler {
     private static final String RedditCommentClass = "SQnoC3ObvgnGjWt90zD9Z _2INHSNB8V5eaWp4P0rY_mE";
@@ -42,6 +42,7 @@ public class RedditCrawler {
 
         /* Initialize a new ArrayList to store comments */
         ArrayList<RedditComment> redditComments = new ArrayList<RedditComment>();
+        SentimentMap sentimentMap = new SentimentMap();
         JSONArray arr;
 
         /* File path to check/store comments */
@@ -70,16 +71,17 @@ public class RedditCrawler {
                 Afterwards, add them to the arraylist
             */
             for (Element commentElement : commentElements) {
-                String commentText = commentElement.text();
+                String commentText = helper.clean(commentElement.text());
+                int commentScore = 0;
                 
                 /* We don't need [deleted] or [removed] comments */
-                if (!commentText.contains("[removed]") && !commentText.contains("[deleted]")) {
-                    /* 
-                        Create a new redditComment object & clean its 
-                        text before adding it to the arraylist
-                    */
-                    RedditComment redditComment = new RedditComment(commentText);
-                    helper.cleanComment(redditComment);
+                if (!commentText.contains("removed") && !commentText.contains("deleted") && !commentText.isEmpty()) {
+
+                    /* Calculate score of the comment */
+                    for (String word : commentText.split("\\s")) {
+                        commentScore += sentimentMap.getOrDefault(word.toLowerCase(), 0);
+                    }
+                    RedditComment redditComment = new RedditComment(commentText, commentScore);
                     redditComments.add(redditComment);
                     arr.put(redditComment.toJSON());
                 }
@@ -92,7 +94,8 @@ public class RedditCrawler {
             arr = new JSONArray(helper.readFile(path));
 
             for (int i = 0; i < arr.length(); i++) {
-                redditComments.add(new RedditComment(arr.getJSONObject(i).getString("text")));
+                JSONObject curr = arr.getJSONObject(i);
+                redditComments.add(new RedditComment(curr.getString("text"), curr.getInt("score")));
             }
         }
             

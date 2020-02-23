@@ -1,4 +1,5 @@
-import twitter4j.JSONArray;
+import org.json.JSONArray;
+import org.json.JSONObject;
 import twitter4j.Query;
 import twitter4j.Status;
 import twitter4j.Twitter;
@@ -12,15 +13,13 @@ import java.io.File;
 
 
 public class TwitterCrawler {
-    private int pageCount;
+    private static final int pageCount = 100;
     private Twitter twitter;
 
     /*
      * Constructor
      */
-    public TwitterCrawler(int pageCount) {
-        this.pageCount = pageCount;
-
+    public TwitterCrawler() {
         ConfigurationBuilder cb = new ConfigurationBuilder();
         cb.setDebugEnabled(true)
         .setOAuthConsumerKey("xLoe9hZYpNDthiFEZ2ffGAuhf")
@@ -39,6 +38,11 @@ public class TwitterCrawler {
         List<Status> rawTweets;
         ArrayList<Tweet> tweets = new ArrayList<Tweet>();
         JSONArray arr;
+
+        /* Variables to store tweet sentiment score */
+        SentimentMap sentimentMap = new SentimentMap();
+
+        /* To filter Tweets by date, the API requires the target date and target date + 1 day*/
         Date[] dates = date.nextNDays(1);
 
         /* File path to check/store comments */
@@ -53,15 +57,21 @@ public class TwitterCrawler {
             Query query = new Query(String.format("%s exclude:retweets", keyword));
             query.setSince(dates[0].toStringFor("twitter"));
             query.setUntil(dates[1].toStringFor("twitter"));
-            query.setCount(this.pageCount);
+            query.setCount(TwitterCrawler.pageCount);
             query.setResultType(Query.RECENT);
 
             try {
                 rawTweets = this.twitter.search(query).getTweets();
 
                 for (Status s : rawTweets) {
-                    Tweet t = new Tweet(s.getText());
-                    helper.cleanComment(t);
+                    String tweetText = helper.clean(s.getText());
+                    int tweetScore = 0;
+
+                    for (String word : tweetText.split("\\s")) {
+                        tweetScore += sentimentMap.getOrDefault(word.toLowerCase(), 0);
+                    }
+
+                    Tweet t = new Tweet(tweetText, tweetScore);
                     tweets.add(t);
                     arr.put(t.toJSON());
                 }
@@ -71,13 +81,14 @@ public class TwitterCrawler {
             }
 
             /* Save it to a file under data folder */
-            helper.writeToFile(path, arr.toString(3));
+            helper.writeToFile(path, arr.toString(5));
         }
         else {
             arr = new JSONArray(helper.readFile(path));
 
             for (int i = 0; i < arr.length(); i++) {
-                tweets.add(new Tweet(arr.getJSONObject(i).getString("text")));
+                JSONObject curr = arr.getJSONObject(i);
+                tweets.add(new Tweet(curr.getString("text"), curr.getInt("score")));
             }
         }
             
@@ -88,10 +99,6 @@ public class TwitterCrawler {
      * Getters & Setters below, for encapsulation
      */
     public int getPageCount() {
-        return this.pageCount;
-    }
-
-    public void setPageCount(int pageCount) {
-        this.pageCount = pageCount;
+        return TwitterCrawler.pageCount;
     }
 }

@@ -2,9 +2,39 @@ import java.util.ArrayList;
 import org.json.JSONArray;
 import org.json.JSONObject;
 
-/* We using builder design for this class */
+/* 
+    No known updated Java library for Bitmex API hence we have to build our own.
+    We using builder design pattern for this class.
+    Not all API calls will be implemented for this project, we don't need all of them.
+
+    Default settings are as follows:
+    -> Past 7 days prices
+    -> Daily timeframe
+    -> Prices for XBTUSD (Bitcoin Inverese Perpetual Swaps)
+    -> Sorted in ascending order (by time)
+
+    Example usage:
+
+        * Create a new Bitmex object *
+        Bitmex bm = new Bitmex();
+
+        * To get prices with default settings *
+        ArrayList<Bitmex.Price> prices = bm.getPrices();
+
+        * To get prices for last 365 days *
+        Date today = new Date();
+        Date lastYear = today.minusDays(365);
+        prices = bm.endDate(today).startDate(lastYear).getPrices();
+
+        * Works with RFC3339 timestamp as well *
+        prices = bm.endDate("2020-02-22T15:54:00.000Z").startDate("2020-02-22T15:54:00.000Z").getPrices();
+
+        * To get prices for different symbol (eg. ETHUSD)
+        prices = bm.symbol("ETHUSD").getPrices();
+*/
 public class Bitmex {
 
+    /* URL to Bitmex's API endpoint */
     public static final String BitmexURL = "https://www.bitmex.com/api/v1";
 
     private String symbol = "XBTUSD";
@@ -13,7 +43,7 @@ public class Bitmex {
     private Date startDate = endDate.minusDays(7);
     private int count = 500;
     private boolean reverse = true;
-    private boolean partial = false;
+    private boolean partial = true;
 
     /* We don't need a constructor really, all fields are pre-defined */
     public Bitmex() {} 
@@ -29,12 +59,32 @@ public class Bitmex {
     }
 
     public Bitmex startDate(Date startDate) {
-        this.startDate = startDate;
+        if (startDate.isAfter(this.endDate)) {
+            this.startDate = this.endDate;
+            this.endDate = startDate;
+        } else {
+            this.startDate = startDate;
+        }
+        return this;
+    }
+
+    public Bitmex startDate(String startDate) {
+        this.startDate = new Date(startDate);
         return this;
     }
 
     public Bitmex endDate(Date endDate) {
-        this.endDate = endDate;
+        if (endDate.isBefore(this.startDate)) {
+            this.endDate = this.startDate;
+            this.startDate = endDate;
+        } else {
+            this.endDate = endDate;
+        }
+        return this;
+    }
+
+    public Bitmex endDate(String endDate) {
+        this.endDate = new Date(endDate);
         return this;
     }
 
@@ -59,6 +109,7 @@ public class Bitmex {
         String startTime = this.startDate.toStringFor("bitmex");
         String endTime = this.endDate.toStringFor("bitmex");
         String url = "%s/trade/bucketed?binSize=%s&partial=%s&symbol=%s&count=%s&reverse=%s&startTime=%s&endTime=%s";
+        String path = String.format("../data/Bitmex/%s/%s-%s.txt", this.symbol, startTime, endTime);
         url = String.format(url, Bitmex.BitmexURL, this.binSize, this.partial, this.symbol, this.count, this.reverse, startTime, endTime);
 
         JSONArray result = new JSONArray(helper.getJson(url));
@@ -71,37 +122,28 @@ public class Bitmex {
             p.setOpen(result.getJSONObject(i).getDouble("open"));
             p.setHigh(result.getJSONObject(i).getDouble("high"));
             p.setClose( result.getJSONObject(i).getDouble("close"));
-            p.setVolume(result.getJSONObject(i).getInt("volume"));
 
             prices.add(p);
         }
 
+        helper.writeToFile(path, result.toString(3));
+
         return prices;
     }
 
-    class Price {
+    public class Price implements JSONSerializable {
         private Date date;
         private String symbol;
         private double open;
         private double high;
         private double low;
         private double close;
-        private int volume;
 
         public Price() {}
 
-        public String toJson() {
-            JSONObject jobj = new JSONObject();
-            jobj.put("timestamp", this.date.toStringFor("bitmex"));
-            jobj.put("symbol", this.symbol);
-            jobj.put("open", this.open);
-            jobj.put("high", this.high);
-            jobj.put("low", this.low);
-            jobj.put("close", this.close);
-            jobj.put("volume", this.volume);
+        public JSONObject toJSON() { return new JSONObject(this); }
 
-            return jobj.toString();
-        }
+        public String toJSONString() { return this.toJSON().toString(); }
 
         public double getClose() { return this.close; }
 
@@ -119,10 +161,6 @@ public class Bitmex {
 
         public void setOpen(double open) { this.open = open; }
 
-        public int getVolume() { return this.volume; }
-
-        public void setVolume(int volume) { this.volume = volume; }
-
         public String getSymbol() { return this.symbol; }
 
         public void setSymbol(String symbol) { this.symbol = symbol; }
@@ -132,7 +170,7 @@ public class Bitmex {
         public void setDate(Date date) { this.date = new Date(date); }
     }
 
-    class Message extends Comment {
+    public class Message extends Comment {
         
         private int id;
         private String user;
