@@ -7,8 +7,8 @@ public class SentimentMap extends java.util.HashMap<String, Integer> {
 
     public SentimentMap() {
         /* Read sentiments.csv file and get all word-score pair */
-        //String sentimentRaw = helper.readFile("../data/sentiments.csv");
-    	  String sentimentRaw = helper.readFile("C:\\Users\\Brandon\\eclipse-workspace\\crawlgui\\data\\sentiments.csv");
+        String sentimentRaw = helper.readFile("../data/sentiments.csv");// find your folder path
+    	 
 
         for (String s : sentimentRaw.split("\\n")) {
             String[] pair = s.split(",");
