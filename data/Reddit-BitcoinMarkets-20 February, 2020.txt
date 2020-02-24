@@ -1,14 +1,10 @@
 [
    {
-      "score": 0,
-      "text": "httpsiimgurcomTm7O1i2jpg"
-   },
-   {
-      "score": 0,
+      "score": 5,
       "text": "567 drop 2 days after the last Golden Cross before going to 137k"
    },
    {
-      "score": 0,
+      "score": 5,
       "text": "579 drop 2 days after this Golden Cross"
    },
    {
@@ -32,52 +28,28 @@
       "text": "Glad you guys are catching up even if 2 weeks too late"
    },
    {
-      "score": 0,
-      "text": ""
-   },
-   {
-      "score": 0,
+      "score": 16,
       "text": "My plan remains the same We will have a proper bull run when log support gets close to previous ATH similar to previous bull runs some macro charts"
    },
    {
-      "score": 0,
-      "text": "httpswwwtradingviewcomxoKbSt2nf"
-   },
-   {
-      "score": 0,
+      "score": 8,
       "text": "Before the actual bull run there will likely be a prebull run rally red arrows which get uncomfortably close to previous ATH something like 1819k break down and then on next try ATH is breached and we detach from log support"
-   },
-   {
-      "score": 0,
-      "text": "httpswwwtradingviewcomxHDWWxIsw"
    },
    {
       "score": 0,
       "text": "Until then for the next 12 months or so every rally like this one will return to log support"
    },
    {
-      "score": 0,
+      "score": 8,
       "text": "A graph showing the duration of every bull run 2 years  3 years  4 years"
    },
    {
-      "score": 0,
-      "text": "httpspbstwimgcommediaERE6r2qX0AAGaEIpng"
-   },
-   {
-      "score": 0,
+      "score": 7,
       "text": "We are currently 15 years in and we have 3 years to fill with some hairy 2 steps forwards 1 step back rallies So stop screaming bull run on every rise"
    },
    {
       "score": 0,
-      "text": ""
-   },
-   {
-      "score": 0,
-      "text": ""
-   },
-   {
-      "score": 0,
-      "text": "As a bonus this fractal I have been watching  for fun httpswwwtradingviewcomchartXBTBBp2p7e3BTCfractalfromjanfeb2017"
+      "text": "As a bonus this fractal I have been watching  for fun"
    },
    {
       "score": 0,
@@ -92,7 +64,7 @@
       "text": "Currently in low 7k range and will be around there for a few months It gets to 8k mid apr depending on how you draw the line"
    },
    {
-      "score": 0,
+      "score": 1,
       "text": "This has been the ops position for quite some time now There are far too many outside factors to take this for an accurate prediction of future assessment For example Geopolitical traditional markets and other factors such as the psychological anticipation of halving can outride mere fractals and TA indicators as we have seen in the past I really appreciate the ops analysis but I dont put a lot of weight into anyone predicting BTC value months and months out"
    },
    {
@@ -112,24 +84,16 @@
       "text": "And in the second triangle while there was some resistance at 1000 there was MUCH more resistance around 750 After breaking through that 750 turned to support so youd have been much better off longing there than at the old 1k ATH"
    },
    {
-      "score": 0,
+      "score": -4,
       "text": "In short I would draw the horizontal resistance closer to 7075 of ATH something like this"
-   },
-   {
-      "score": 0,
-      "text": "httpswwwtradingviewcomx5N1UifN8"
    },
    {
       "score": 0,
       "text": "Putting our real resistance at 13514k 20k should offer some resistance too as you surmise but not as much as 14k has already stopped us"
    },
    {
-      "score": 0,
+      "score": -4,
       "text": "But in general I tend to agree if you look at my chart I drew the yellow circles slightly to the left of where the lines actually cross something like 3 months before it happens This is a no short area for sure"
-   },
-   {
-      "score": 0,
-      "text": "httpswwwtradingviewcomxoKbSt2nf"
    },
    {
       "score": 0,
@@ -140,7 +104,7 @@
       "text": "If youre not enjoying this ride then Id suggest you go stock up on index funds and Tbills"
    },
    {
-      "score": 0,
+      "score": 3,
       "text": "I followed through on my goal to buy a few coins yesterday Timed it almost perfectly  market bought at 10180 and then it tanked to 9400 10min later"
    },
    {
@@ -220,7 +184,7 @@
       "text": "The next two weeks will be critical"
    },
    {
-      "score": 0,
+      "score": 8,
       "text": "Before any gains crypto leads you through a period of max pain You earn your money through either trading the rallies or HODL and wade through the pain Only after a period of max pain can another true bull market start"
    },
    {
@@ -264,19 +228,15 @@
       "text": "My guess about the next few weeks ahead"
    },
    {
-      "score": 0,
+      "score": 12,
       "text": "The 20week SMA green curve has been a prominent support in corrective phases during bull markets eg look at the long bullrun of 20162018 leading up to ATH I think its quite likely that we bleed or drop to test it in the next few weeks It is currently at 8444 Bfx which coincides with major horizontal support Only after testing it will we bounce and break upwards through the various versions of the ATH trendline resistance red lines solid and dashed This will also serve to reset the weekly Stochastic The time before the bounce will be painful and expensive for those in highly leveraged longs"
-   },
-   {
-      "score": 0,
-      "text": "httpswwwtradingviewcomx1Dw1FFxZ"
    },
    {
       "score": 0,
       "text": "So basically all of this sub Got it "
    },
    {
-      "score": 0,
+      "score": 12,
       "text": "Bullish divergence on 4hr catching my eye Ill commit to going long if it breaks 10200 again Until then I dont trust the chop"
    },
    {
@@ -284,11 +244,11 @@
       "text": "No offense but I think this is how the whales get us"
    },
    {
-      "score": 0,
+      "score": 8,
       "text": "Once it goes higher Ill long Then when it doesnt go high enough I dont exit my long"
    },
    {
-      "score": 0,
+      "score": 4,
       "text": "Wouldnt it be better to long at the bottom"
    },
    {
@@ -320,7 +280,7 @@
       "text": "Demand is what dictates the price in this market It doesnt matter whether the halving is priced in or not  that debate doesnt even make sense The halving was priced in from day 1 when speculators said Wow a predictable supply for an asset could be very valuable in a world of governments inflating their money supply"
    },
    {
-      "score": 0,
+      "score": 3,
       "text": "Bottom line the halving is most likely a significant pricediscovery event but not because of the impact it has on the supply Only because of the impact it has on the demand The only impact of significance the halving may have is whether or not more it will make people want to buy more and at higher prices Maybe it will be perceived as a good thing because it again reaffirms the scarcity one of the fundamentals aspects of bitcoins design Or maybe it will be perceived as a bad thing because the market is grasping at tired arguments to find demand pressure Nobody really knows"
    },
    {
@@ -352,15 +312,15 @@
       "text": "Youre right Ive corrected my post Writing from mobile "
    },
    {
-      "score": 0,
+      "score": 2,
       "text": "I believe you mean a reduction in inflation"
    },
    {
-      "score": 0,
+      "score": -3,
       "text": "BTC supply  issuance  people willing to sell"
    },
    {
-      "score": 0,
+      "score": 3,
       "text": "BTC demand  people willing to buy"
    },
    {
@@ -388,7 +348,7 @@
       "text": "Look at something thats more difficult to flip than crypto  gold or oil Look at their prices particularly in the 2000s  and tell me the demand has skyrocketed and collapsed so quickly"
    },
    {
-      "score": 0,
+      "score": 4,
       "text": "Theres always speculators that drive up prices Crypto is just easier to manipulate Look at yesterdays price action  it didnt take long for millions to change the markets by billions Someone made a lot of money someone lost a lot of money and others took on better longterm positions going into the halving"
    },
    {
@@ -400,7 +360,7 @@
       "text": "What I expect to happen is exactly what happened the last two halvings Nothing has changed the market hasnt learned a damned thing because half the participants are new Most people buying bitcoin in the next year or so dont even know what the halving is and dont care So of course its not priced in Theyll be buying bitcoin because they see the price drift upward which will happen because even current participants havent quite factored in the supply shock enough FOMO ensues etc youve all seen it before Its coming again"
    },
    {
-      "score": 0,
+      "score": 8,
       "text": "Peak of bull run will be delayed about the same from the halving as last time took 18 months in 2017  May202018months  Nov2021 Peak price somewhere between 100k and 300k the longer it takes to peak the higher it will be so 300k probably wouldnt happen unless its still going up into 2022 If any surprises happen itll be in the positive direction Just like last time"
    },
    {
@@ -428,12 +388,8 @@
       "text": "No Just me K Anyways Scalp city boys"
    },
    {
-      "score": 0,
+      "score": 4,
       "text": "Personally I hope to hook up with a hot psycho cokehead chick thats possessive and nonstabby so long as shes convinced I only have eyes for her"
-   },
-   {
-      "score": 0,
-      "text": ""
    },
    {
       "score": 0,
@@ -468,15 +424,11 @@
       "text": "Easy to loose both money and coin"
    },
    {
-      "score": 0,
-      "text": "httpsredditcomrBitcoinMarketscommentsf52v3zdailydiscussionmondayfebruary172020fhwzly6"
-   },
-   {
-      "score": 0,
+      "score": 4,
       "text": "Closed my 99k long at 10k yesterday trailed stops hit after the move up"
    },
    {
-      "score": 0,
+      "score": 4,
       "text": "Now 3X 100 long on bitcon again from 9450 Hodl strong"
    },
    {
@@ -492,11 +444,11 @@
       "text": "Me RN"
    },
    {
-      "score": 0,
+      "score": 4,
       "text": "Went long just under you at 9420 Wish Id held the 9350 but here we are Good luck to us"
    },
    {
-      "score": 0,
+      "score": 8,
       "text": "Pretty sure there are twice as many ppl in here bitching about everyone being bullish than there are bulls"
    },
    {
@@ -504,11 +456,11 @@
       "text": "Well theres at least one person bitching about how there are more people bitching about the bullishness than the actual bulls"
    },
    {
-      "score": 0,
+      "score": 8,
       "text": "Bullish"
    },
    {
-      "score": 0,
+      "score": -4,
       "text": "This dump made me feel sad like it was over"
    },
    {
@@ -516,7 +468,7 @@
       "text": "No analysis just feels"
    },
    {
-      "score": 0,
+      "score": -8,
       "text": "Same seeing red candles triggers bear market PTSD in me"
    },
    {
@@ -528,15 +480,11 @@
       "text": "You are not alone Woke up refreshed apps followed by a fresh new day hatred and sadness at the crypto market then continued with my daily stuff"
    },
    {
-      "score": 0,
-      "text": "It was an absolute shocker But thats the way she goes The market is too complex for a straight line upward ETH and BTC are still only 10 removed from their local high so dont let the short term swings get to you"
-   },
-   {
-      "score": 0,
+      "score": 3,
       "text": "I am going to just open up a spot buy here to see where this takes me"
    },
    {
-      "score": 0,
+      "score": -1,
       "text": "I honestly believe that spot trading is overlooked and is a great strategy when its too risky for leverage"
    },
    {
@@ -552,19 +500,19 @@
       "text": "Yeah watching this PA makes me want to never run leverage again I am thankful that I was out of position and had a rather strong feeling we would see a chop That one was wicked"
    },
    {
-      "score": 0,
+      "score": -3,
       "text": "Imagine the longs that fomod in on the rise to 10250 This is the most recent trading risk that I have been observing"
    },
    {
-      "score": 0,
+      "score": 4,
       "text": "I admit that I was very tempted to fomo long in that last run after we crossed 101"
    },
    {
-      "score": 0,
+      "score": 1,
       "text": "I used to FOMO like an asshole all the time and get chopped to pieces My rule now if I sense a change in the market is to take a small position or exit a little of my position as an AntiFOMO measure and set tight stops to protect it Works wonderfully since I feel like Im benefiting even if the market goes against me"
    },
    {
-      "score": 0,
+      "score": -4,
       "text": "I didnt bother with this recent drop because the signs werent there for me to feel comfortable about making the move and having seen how many liquidations were involved I feel fairly confident that price will recover in short order"
    },
    {
@@ -573,14 +521,10 @@
    },
    {
       "score": 0,
-      "text": "httpthepatternsitecomdbwhtml"
-   },
-   {
-      "score": 0,
       "text": "Confirmation pushes us through 105"
    },
    {
-      "score": 0,
+      "score": 8,
       "text": "Bullish divergence from OBV and increasing volume make this another BTFD moment"
    },
    {
@@ -605,19 +549,11 @@
    },
    {
       "score": 0,
-      "text": ""
-   },
-   {
-      "score": 0,
       "text": "Reading all down the world is ending Funny"
    },
    {
       "score": 0,
       "text": "Man that site takes me back to the lycos and geocities days"
-   },
-   {
-      "score": 0,
-      "text": "httpsimgurcoma42jYpvL"
    },
    {
       "score": 0,
@@ -644,7 +580,7 @@
       "text": "820214 Math checks out"
    },
    {
-      "score": 0,
+      "score": 8,
       "text": "Ok heres the thing The first prehalving pump caused a rally that peaked at about 128 from where it started 716 JuneAugust 2012 the next one caused a rally of 69 nice 460778 MayJune 2016 Its undisputed that there has been a prehalving pump yes I see it rallied the price 40 from 7500 to 10500 starting January and having its latest peak in February"
    },
    {
@@ -656,7 +592,7 @@
       "text": "Personally I think we peak at around 11400 and will be on our way downwards probably 9200 on halving day itself"
    },
    {
-      "score": 0,
+      "score": 4,
       "text": "Im calling local bottom It looks flat like one and sideways price action for long enough Slow grind to 99k and then blast through"
    },
    {
@@ -700,7 +636,7 @@
       "text": "Yeah haha testing a theory right now"
    },
    {
-      "score": 0,
+      "score": 5,
       "text": "Look at the Golden crosses we had before almost always a dump before the pump"
    },
    {
@@ -716,19 +652,19 @@
       "text": "I hope you wake up with this good news my friend"
    },
    {
-      "score": 0,
+      "score": 4,
       "text": "Is anyone getting the FOMO jitters or is it just me Looks like the accumulation was completed volume subsided Time for a pump"
    },
    {
-      "score": 0,
+      "score": 4,
       "text": "FOMO for what Its been 2 long years of crypto winter If anything its more like I need to be rewarded for my patience so it better fucking go up"
    },
    {
-      "score": 0,
+      "score": 4,
       "text": "This made me lol God damn its been a long freaking winter You gotta laugh tho"
    },
    {
-      "score": 0,
+      "score": 8,
       "text": "Well it is a red Thursday in a bull market so theres a pretty good chance that tomorrow will be green possibly a deep rich tall green like a Redwood tree"
    },
    {
@@ -752,7 +688,7 @@
       "text": "Its just you"
    },
    {
-      "score": 0,
+      "score": -4,
       "text": "Looked like volume had subsided after the last dump the other day"
    },
    {
@@ -766,10 +702,6 @@
    {
       "score": 0,
       "text": "If this thing breaks up crypto is the new world order and we become all rich"
-   },
-   {
-      "score": 0,
-      "text": "httpsiimgurcomkXnVGWnpng"
    },
    {
       "score": 0,
@@ -788,11 +720,11 @@
       "text": "Preferred 50 Shades Of Grey meself"
    },
    {
-      "score": 0,
+      "score": -4,
       "text": "Ive successfully shorted 10250 and Im here to tell you the process of getting that short in the money was the stuff of nightmares I was stopped out at a big loss a few times over the last few days before getting that one good entry and I was certain I was gonna loose money again until the moment we dropped below 10k I really felt like I was being hunted when after dropping to 10170 the price rebounded back to 10220 with what appeared like enough bravado for another run at 10300"
    },
    {
-      "score": 0,
+      "score": 6,
       "text": "Im also absolutely pissed at myself for getting out at an average price of 9700 when 9500 was there for me to market close at but hey profit is profit I guess"
    },
    {
@@ -812,7 +744,7 @@
       "text": "You my man are a gambler "
    },
    {
-      "score": 0,
+      "score": 2,
       "text": "No question about that But it did pay off out of several positions I made out with 4x what I lost in the process and most importantly that was with me fomo shorting like a complete newbie that I want to believe was because I hadnt been tradinggambling in a few months"
    },
    {
@@ -844,11 +776,11 @@
       "text": "This is all whale games right now Has nothing to do with any of these external forces you mention"
    },
    {
-      "score": 0,
+      "score": 2,
       "text": "I thought it had to do with the halving Or are we considering that a whale game too since satoshi is the biggest whale of all and he built the fucking thing into it"
    },
    {
-      "score": 0,
+      "score": 2,
       "text": "While I dont totally disagree with you zoom out Bitcoin is up And I believe the factors you listed do play a big part We also have the halving coming up Btc cant just keep going up without correcting This retracement is healthy and we will be on the rise again soon This is just noise and a few months from now this dip will look like a tiny blip on the chart"
    },
    {
@@ -864,7 +796,7 @@
       "text": "I think its better to just simplify this If the price doesnt go in the direction you want you really have to question what drives the price action Otherwise you might have to hold yourself accountable"
    },
    {
-      "score": 0,
+      "score": 3,
       "text": "Im still hereif anybody actually cares missed BTC pumphad some small spot buys in 7k region but nothing major but made up for it by longing and shorting alts  looking to buy BTC 8588k if it gets there since the trend is up for now"
    },
    {
@@ -872,7 +804,7 @@
       "text": "Hi Im Doug"
    },
    {
-      "score": 0,
+      "score": 4,
       "text": "Were all in this together  I care See ya in a few months on the other side of the long"
    },
    {
@@ -921,10 +853,14 @@
    },
    {
       "score": 0,
-      "text": "Corn go up now thanks"
+      "text": "26th feb 11k"
    },
    {
       "score": 0,
+      "text": "Corn go up now thanks"
+   },
+   {
+      "score": 1,
       "text": "My prediction is huge upward movement soon Whales are slapping their tails hard on us little guys and institutions are shortsighted But its about to get crazy and I dont see us going much lower so up it must be"
    },
    {
@@ -950,10 +886,6 @@
    {
       "score": 0,
       "text": "Haha price drop"
-   },
-   {
-      "score": 0,
-      "text": "26th feb 11k"
    },
    {
       "score": 0,
@@ -992,11 +924,11 @@
       "text": "Most people say Dont invest what you cant afford to lose This is decent advice but it gives the implication that while you might lose everything you probably wont lose much The reaction is like Yeah yeah I know I could lose it all but realistically I think its going to go very well"
    },
    {
-      "score": 0,
+      "score": 12,
       "text": "Instead I tell people Look dont buy any bitcoin unless you feel compelled to light that entire investment on fire If you buy 5000 of bitcoin today tomorrow you will have 5000 less period End of story You spent it and that money is gone forever The moment you buy the monetary value of your investment is 0 Even if the price goes up 10 tomorrow you are still down 100 on your investment No exceptions The money is GONE Never to be seen again The only thing youve gained is the knowledge that youre now supporting something you for whatever reason believe in"
    },
    {
-      "score": 0,
+      "score": 1,
       "text": "This accomplishes two things One it deters many people from buying at all Most people dont have much extra cash and certainly dont want to toss whatever they have into a dumpster This is a good thing because risky investments are not suited for most peoples situations Secondly for those who DO buy it helps create a much better starting point towards being insulated for the fluctuation they are almost certainly unprepared for If you mentally lose the entire value of your investment the moment you enter then guess what You have nothing left to lose"
    },
    {
@@ -1016,11 +948,11 @@
       "text": "I really gotta start setting up some buys to try to catch these God damn spikes down that get bought up"
    },
    {
-      "score": 0,
+      "score": 1,
       "text": "EditJust to clarify Im still buying them but itd be cool to get that extra little bit 9500 vs 9200 sort of thing"
    },
    {
-      "score": 0,
+      "score": 3,
       "text": "Good strategyuntil black swan event when it goes down and hits your buy and then keeps going downand downand down"
    },
    {
@@ -1036,7 +968,7 @@
       "text": "Lets see if we can get to 10k now doesnt look like theres anything in the way"
    },
    {
-      "score": 0,
+      "score": 8,
       "text": "Im a bit more bullish than ujockeghem"
    },
    {
@@ -1049,7 +981,7 @@
    },
    {
       "score": 0,
-      "text": "Happy trading httpswwwtradingviewcomx7K9zc10Z"
+      "text": "Happy trading"
    },
    {
       "score": 0,
@@ -1064,19 +996,19 @@
       "text": "the one thing i struggle with trading the most is to protect onces capital at all times too easy to be complacent sit on gains if entry is in the low thousands  just ride everything out but just a couple trades  exits at peaks would save me so much agony"
    },
    {
-      "score": 0,
+      "score": 3,
       "text": "In theory yeah if you time the top and bottom correctly you could be incredibly rich You can also accept that you cant do it and let it ride for a bit less profit"
    },
    {
       "score": 0,
-      "text": "Origin of hodler httpsbitcointalkorgindexphptopic3756430"
+      "text": "Origin of hodler"
    },
    {
       "score": 0,
       "text": "wtf whats with the locusts invasion today did wsb and bch launch a trolling initiative and promise theyd be rewarded with nice charts"
    },
    {
-      "score": 0,
+      "score": 2,
       "text": "I really feel like most people felt that once it dipped from 105 to 95K and stayed there as a correction for like 56 days which everyone agreed was very healthy everyone was as bullish as they can be when it proceeded to go back up to 10K I suspect that this is when a lot of people opened up very risky longs thinking the following well it dipped below 10k and had a very healthy correction so with the halving coming up I will sell at my target price of somewhere between 13 to 20K and reap all the benefits"
    },
    {
@@ -1096,7 +1028,7 @@
       "text": "That close looked good to me I expect a retest of 9400 before we ratchet up again I have an order there"
    },
    {
-      "score": 0,
+      "score": -1,
       "text": "Has anyone backtested trading contrary to open interest on longsshorts Alternatively does anyone know a data source to pull historic open interest data I want to see if its worth fishing for stop losses when conditions are ripe and big movers have proper motivation"
    },
    {
@@ -1116,7 +1048,59 @@
       "text": "looks like sloppy was correct 10180ish didnt hold turned resistance and the big retrace came should have could have listened "
    },
    {
+      "score": -24,
+      "text": "Ive been stating for about five days now that it seems that the halving rally is coming to an end earlier this year than it has in previous years Its sort of funny that people downvoted the comments and criticized me for being bearish then Now that the crash has probably started there are comments coming into my previous posts claiming that what I said doesnt matter because Im a permanent bear Apparently the standard here shifts from whether you were actually right to of course you were right because you have a larger proportion of bearish comments than most people"
+   },
+   {
+      "score": -30,
+      "text": "The reason I have a lot of bearish comments is because this is a bear market Of course Ill post a lot of bearish comments when the market has been in a downtrend for eight months Smart people around here will not judge posters by the proportion of their comments that are bullish or bearish I still dont believe the story that the bear market is over It wont be over until prices rise above 10800"
+   },
+   {
+      "score": -6,
+      "text": "On to something more relevant I cant speak for other miners but I know that I changed my strategy a few days ago when I first posted about a top possibly being in to sell everything the minute it is mined I understand there is still a possibility that the prehalving rise is not over but Im not willing to risk an employees job over it"
+   },
+   {
       "score": 0,
+      "text": "The reason I mention this is that I suspect that most of the volume at exchanges is just people playing games with each other Even though there are orders that seem large these traders are buying and selling the same coins over and over Theres fake volume made up by exchanges wash trades between the same person and daytrading by speculators I offer that all of these are probably 99 of the trades"
+   },
+   {
+      "score": -2,
+      "text": "My belief is that there are actually a very small number of people who actually send the dollars to their bank accounts and dont rebuy People who do make an outsized impact on the market Their sales trigger huge margin calls on people who are just selling and buying over and over again You dont need to sell thousands of bitcoins to trigger a crash only slightly increase the number of blocks sold until the first margin calls start to cascade"
+   },
+   {
+      "score": 3,
+      "text": "This is probably why there was an article at Coindesk yesterday claiming that BCH was going to retest 500 based on TA and I knew immediately that it was wrong Yesterdays event at least for BCH was caused by people like me who changed their behavior at least for a few months I watched the trader sell a block at Bittrex and the price would fall 2 and then small buy orders would quickly appear and then it would fall again for the next block but those large buy orders always kept moving down and would never get filled Today Coindesk posted another article that seemed surprised at the price action"
+   },
+   {
+      "score": 0,
+      "text": "I think the bottom line is that the fundamentals have changed for the time being If theyre like me miners switched from accumulate to immediate sale and I think thats the default action until the SHA256 coins halve and relieve that pressure starting an uptrend and prompting miners to rethink their actions"
+   },
+   {
+      "score": 0,
+      "text": "Reasons you get downvoted"
+   },
+   {
+      "score": -3,
+      "text": "Furthermore if you are so certain the price is going down sell the equivalent amount of BTC or shitcoins that you expect to mine over the next couple months or whatever on futures Lock in todays price Thats even better than immediate sale"
+   },
+   {
+      "score": 0,
+      "text": "Lol truth"
+   },
+   {
+      "score": 0,
+      "text": "Thanks for your post I respect an honest assessment from you wether I agree or disagree"
+   },
+   {
+      "score": 0,
+      "text": "Thanks for your input I got to ask though if you objectively reflect on yourself how much would you estimate your outlook is differentbiased compared to if you were not running a business and would be retail participant instead"
+   },
+   {
+      "score": 0,
+      "text": "Do you think you would have morelesssame outlook strategy etc Thanks"
+   },
+   {
+      "score": -1,
       "text": "Looking at the trading behaviour I feel so out of the loop I understood the weird behaviour we had at super low liquidity But right now how do you explain those crazy wicks Volume isnt really that low to allow for crazy stop loss hunting or am I wrong"
    },
    {
@@ -1132,7 +1116,7 @@
       "text": "Almost"
    },
    {
-      "score": 0,
+      "score": 12,
       "text": "And your method is is to mash the buy button yell moon and hope for the best"
    },
    {
@@ -1153,35 +1137,15 @@
    },
    {
       "score": 0,
-      "text": "my aunt died and left me 700k just got it deposited in my account today putting it all in to BTC im already financially secure and this is long term my question is should i do a market order with a stop"
-   },
-   {
-      "score": 0,
       "text": "sorry to hear about your non existent aunt"
-   },
-   {
-      "score": 0,
-      "text": "haha well said"
    },
    {
       "score": 0,
       "text": "YOLO 100x short or long"
    },
    {
-      "score": 0,
+      "score": 3,
       "text": "Or you could be smart and buy some 510 dividend yielding stocks and make 35K a year in a conservative investment"
-   },
-   {
-      "score": 0,
-      "text": "Best answer to this attention seeking question I upvote the hell out of this"
-   },
-   {
-      "score": 0,
-      "text": "Holy baby Jesus sweet lord almighty Thatd be about the best YOLO chuck a person could ask for 700k100x makes my dick hard Imagine the bot wars lmfao"
-   },
-   {
-      "score": 0,
-      "text": "What would a 70M market order do to this market Hmm "
    },
    {
       "score": 0,
@@ -1192,23 +1156,11 @@
       "text": "Given the situation maybe it would be good to not rush things step away for a month and then reevaluate if this is really what you want to do"
    },
    {
-      "score": 0,
+      "score": -3,
       "text": "Otherwise you have a few options depending on FOMO and your risk appetite"
    },
    {
       "score": 0,
       "text": "Given the order size you may consider Krakens OTC desk Verification and onboarding is very fast"
-   },
-   {
-      "score": 0,
-      "text": "If youre already financiallysecure why arent you YOLOing into OTM TSLA calls"
-   },
-   {
-      "score": 0,
-      "text": "Dafuq is this shit rpersonalfinance is over there"
-   },
-   {
-      "score": 0,
-      "text": "OTC They can usually get you a better spot on volume and if it works out youll have a white glove agent for any needs Never know how soon you may 10x that and need some help unloading vol at max price"
    }
 ]

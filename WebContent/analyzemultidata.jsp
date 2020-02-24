@@ -14,6 +14,7 @@
 			<p> Dataset 2 Path
 				<input type="file" name="path2"  placeholder="Dataset 2 Path" size="40" />
 			</p>
+			<input type="submit" value="Analyze!">
 		</form>
 		<br>
 		<em>NOTE: Process may take quite some time, please wait for the page to load</em>
@@ -23,7 +24,8 @@
   			<a href="redditcrawler.jsp" class="active">Reddit Crawler</a> | 
   			<a href="twittercrawler.jsp" class="active">Twitter Crawler</a> | 
   			<a href="analyzelocaldata.jsp" class="active">Analyze Dataset</a> | 
-  			<a href="analyzemultidata.jsp" class="active">Analyze Multiple Datasets</a>
+  			<a href=analyzemultidata.jsp>Compare Two Datasets</a> | 
+  			<a href=analyzexcrawldata.jsp>Crawl & Analyze BitMEX Data</a>
 		</div>
 	</body>
 </html>

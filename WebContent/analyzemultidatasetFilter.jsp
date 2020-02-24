@@ -44,10 +44,8 @@
 				comments = analyzercrawler.helper.readFile(path1);
 				/* Calls commentFilter method to remove unecessary characters and return as array with specified keyword */
 				commentArr = analyzercrawler.jsphelper.commentFilterTweet(comments, key);
-				out.print("<h4>Results from: Set A</h4>");
 				/* totalComments returns the numer of tweets with keyword */
 				appear1 = Integer.valueOf(analyzercrawler.jsphelper.totalKeyword(commentArr));
-				out.print("<p><em>Keyword: " + key + " | Number of Tweets with keyword: " + appear1 + "</em></p>");
 			}
 			else
 			{
@@ -55,23 +53,8 @@
 				comments = analyzercrawler.helper.readFile(path1);
 				/* Calls commentFilter method to remove unecessary characters and return as array with specified keyword */
 				commentArr = analyzercrawler.jsphelper.commentFilterReddit(comments, key);
-				out.print("<h4>Results from: Set A</h4>");
 				/* totalComments returns the numer of tweets with keyword */
 				appear1 = Integer.valueOf(analyzercrawler.jsphelper.totalKeyword(commentArr));
-				out.print("<p><em>Keyword: " + key + " | Number of Comments with keyword: " + appear1 + "</em></p>");
-			}
-			/* To print out the information contained inside the text file */
-			while(true)
-			{
-				out.print(commentArr[index]);
-				index++;
-				out.print(commentArr[index]);
-				index++;
-				out.print("<br>");
-				if(commentArr[index] == null)
-				{
-					break;
-				}
 			}
 			if(path2.contains("#"))
 			{
@@ -79,10 +62,8 @@
 				comment = analyzercrawler.helper.readFile(path2);
 				/* Calls commentFilter method to remove unecessary characters and return as array with specified keyword */
 				commentsArr = analyzercrawler.jsphelper.commentFilterTweet(comment, key);
-				out.print("<h4>Results from: Set B</h4>");
 				/* totalComments returns the numer of tweets with keyword */
 				appear2 = Integer.valueOf(analyzercrawler.jsphelper.totalKeyword(commentsArr));
-				out.print("<p><em>Keyword: " + key + " | Number of Tweets with keyword: " + appear2 + "</em></p>");
 			}
 			else
 			{
@@ -90,23 +71,8 @@
 				comment = analyzercrawler.helper.readFile(path2);
 				/* Calls commentFilter method to remove unecessary characters and return as array with specified keyword */
 				commentsArr = analyzercrawler.jsphelper.commentFilterReddit(comment, key);
-				out.print("<h4>Results from: Set B</h4>");
 				/* totalComments returns the numer of comments with keyword */
 				appear2 = Integer.valueOf(analyzercrawler.jsphelper.totalKeyword(commentsArr));
-				out.print("<p><em>Keyword: " + key + " | Number of Tweets with keyword: " + appear2 + "</em></p>");
-			}
-			/* To print out the information contained inside the text file */
-			while(true)
-			{
-				out.print(commentsArr[indexs]);
-				indexs++;
-				out.print(commentsArr[indexs]);
-				indexs++;
-				out.print("<br>");
-				if(commentsArr[indexs] == null)
-				{
-					break;
-				}
 			}
 			/* Pie Chart for better representation of data comparison */
 			Gson gsonObj = new Gson();
@@ -120,7 +86,6 @@
 			map = new HashMap<Object,Object>(); map.put("label", "SetB"); map.put("y", nappear2); list.add(map);
 			String dataPoints = gsonObj.toJson(list);
 		%>
-			<h3>Insights to Information Filtered:</h3>
 			<!-- Configurations for the Pie Chart -->
 			<script type="text/javascript">
 				window.onload = function()
@@ -147,8 +112,39 @@
 				}
 			</script>
 			<div id="chartContainer" style="height: 370px; width: 100%;"></div>
+		<%
+			out.print("<h4>Results from: Set A</h4>");
+			out.print("<p><em>Keyword: " + key + " | Number of results with keyword: " + appear1 + "</em></p>");
+			/* To print out the information contained inside the text file for Set A */
+			while(true)
+			{
+				index++;
+				out.print(commentArr[index]);
+				index++;
+				out.print("<br>");
+				if(commentArr[index] == null)
+				{
+					break;
+				}
+			}
+			out.print("<h4>Results from: Set B</h4>");
+			out.print("<p><em>Keyword: " + key + " | Number of results with keyword: " + appear2 + "</em></p>");
+			/* To print out the information contained inside the text file for Set B*/
+			while(true)
+			{
+				indexs++;
+				out.print(commentsArr[indexs]);
+				indexs++;
+				out.print("<br>");
+				if(commentsArr[indexs] == null)
+				{
+					break;
+				}
+			}
+		%>
 			<script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
 			<p>------------------------------------------------------------------------------------------</p>
+			<form><input type="button" value="Return" onclick="history.back()"></form>
 			<p><b>You have reached the end of the data. Click <a href="index.jsp">here</a> to exit.</b></p>
 			<br>
 			<em>NOTE: If nothing is displayed above, it means that the file path is wrong or the file is empty</em>
@@ -161,7 +157,8 @@
   			<a href="redditcrawler.jsp" class="active">Reddit Crawler</a> | 
   			<a href="twittercrawler.jsp" class="active">Twitter Crawler</a> | 
   			<a href="analyzelocaldata.jsp" class="active">Analyze Dataset</a> | 
-  			<a href="analyzemultidata.jsp" class="active">Analyze Multiple Datasets</a>
+  			<a href=analyzemultidata.jsp>Compare Two Datasets</a> | 
+  			<a href=analyzexcrawldata.jsp>Crawl & Analyze BitMEX Data</a>
 		</div>
 	</body>
 </html>

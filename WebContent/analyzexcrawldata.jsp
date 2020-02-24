@@ -2,17 +2,14 @@
 <html>
 	<head>
 		<meta charset="ISO-8859-1">
-		<title>Reddit Crawler</title>
+		<title>Bitcoin Market</title>
 	</head>
 	<body>
-		<h1>Reddit Crawler</h1>
-		<h2>What do you want to find out more on?</h2>
-		<form action="redditHandlerSV.jsp" method="POST">
-			<input type="text" name="subreddit" placeholder="Subreddit" required>
-			<input type="text" name="flair" placeholder="Flair" required>
-			<input type="text" name="keyword" placeholder="What to find out on?" required>
+		<h1>Bitcoin Market Analyzers x Crawler</h1>
+		<h2>Take a look at how's the market going for the past 7 days</h2>
+		<form action="analyzexcrawldataSV.jsp" method="POST">
 			<input type="text" name="path" placeholder="Where to save the file?" required>
-			<input type="submit" value="Fetch!">
+			<input type="submit" value="Analyze!">
 		</form>
 		<br>
 		<em>NOTE: Process may take quite some time, please wait for the page to load</em>

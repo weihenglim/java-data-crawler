@@ -1,5 +1,7 @@
 package analyzercrawler;
 
+import java.util.Arrays;
+
 /* 
 	This class contains all the miscellaneous methods, variables & fields that will be used in JSP environment
 */
@@ -7,27 +9,27 @@ package analyzercrawler;
 public class jsphelper
 {
 	/*
-	 * 	Remove unnecessary characters from the String
+	 * 	Filter the String and return as an Array
 	 */
-	public static String commentReplacerReddit(String comments)
+	public static String[] commentFilterReddit(String comments)
 	{
+		String[] commentArr;
+		commentArr = new String[1000];
 		comments = comments.replace("[","");
-		comments = comments.replace("]","");
 		comments = comments.replace("{","");
-		comments = comments.replace("},","<br>");
 		comments = comments.replace("}","");
-		return comments;
+		commentArr = comments.split(",");
+		return commentArr;
 	}
-	public static String commentReplacerTweet(String comments)
+	public static String[] commentFilterTweet(String comments)
 	{
+		String[] commentArr;
+		commentArr = new String[1000];
 		comments = comments.replace("[","");
-		comments = comments.replace("]","");
-		comments = comments.replace("\"","");
 		comments = comments.replace("{","");
-		comments = comments.replace("\\","");
-		comments = comments.replace("},","<br>");
-		comments = comments.replace(",","&nbsp&nbsp&nbsp&nbsp&nbsp");
-		return comments;
+		comments = comments.replace("}","");
+		commentArr = comments.split(",");
+		return commentArr;
 	}
 	/*
 	 * 	Filter the String and return as an Array based on the keyword
@@ -73,7 +75,7 @@ public class jsphelper
 			{
 				newArr[index] = commentArr[i-1];
 				index += 1;
-				newArr[index] = "&nbsp&nbsp&nbsp&nbsp&nbsp" + commentArr[i];
+				newArr[index] = commentArr[i];
 				index += 1;
 			}
 		}
@@ -81,26 +83,6 @@ public class jsphelper
 	}
 	/*
 	 * 	Returns the total number of comments/tweets
-	 */
-	public static String totalComments(String comment, String index)
-	{
-		String[] commentArr;
-		commentArr = new String[1000];
-		comment = comment.replace("<br>",",");
-		commentArr = comment.split(",");
-		int amount = 0;
-		amount = commentArr.length;
-		if(index == "R")
-		{
-			return String.valueOf(amount / 2);
-		}
-		else
-		{
-			return String.valueOf(amount);
-		}
-	}
-	/*
-	 * 	Returns the total number of comments/tweets with keyword
 	 */
 	public static String totalKeyword(String[] commentArr)
 	{

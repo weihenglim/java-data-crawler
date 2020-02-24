@@ -1,0 +1,74 @@
+[
+   {
+      "twitter_score": 68,
+      "date": "2020-02-23",
+      "high": 9718.5,
+      "low": 9560.5,
+      "close": 9675.5,
+      "reddit_score": 70,
+      "open": 9694
+   },
+   {
+      "twitter_score": 12,
+      "date": "2020-02-22",
+      "high": 9788,
+      "low": 9506,
+      "close": 9694,
+      "reddit_score": 113,
+      "open": 9607.5
+   },
+   {
+      "twitter_score": 14,
+      "date": "2020-02-21",
+      "high": 9688,
+      "low": 9354,
+      "close": 9607.5,
+      "reddit_score": 3,
+      "open": 9596.5
+   },
+   {
+      "twitter_score": 40,
+      "date": "2020-02-20",
+      "high": 10331,
+      "low": 9260.5,
+      "close": 9596.5,
+      "reddit_score": 161,
+      "open": 10195.5
+   },
+   {
+      "twitter_score": -3,
+      "date": "2020-02-19",
+      "high": 10300,
+      "low": 9621,
+      "close": 10195.5,
+      "reddit_score": 133,
+      "open": 9715
+   },
+   {
+      "twitter_score": 48,
+      "date": "2020-02-18",
+      "high": 9970,
+      "low": 9485,
+      "close": 9715,
+      "reddit_score": 155,
+      "open": 9934
+   },
+   {
+      "twitter_score": 44,
+      "date": "2020-02-17",
+      "high": 10049,
+      "low": 9642,
+      "close": 9934,
+      "reddit_score": 322,
+      "open": 9907
+   },
+   {
+      "twitter_score": 31,
+      "date": "2020-02-16",
+      "high": 10402.5,
+      "low": 9731,
+      "close": 9907,
+      "reddit_score": 131,
+      "open": 10369.5
+   }
+]

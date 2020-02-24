@@ -35,6 +35,12 @@
 				<input type="submit" value="Filter">
 			</form>
 			<br>
+			<form action="analyzemultidatasetSentiment.jsp" method="POST">
+				<input type="hidden" name="pathLink1" value="<%=path1 %>">
+				<input type="hidden" name="pathLink2" value="<%=path2 %>">
+				<input type="submit" value="Compare Sentiment">
+			</form>
+			<br>
 		<%
 			}
 		%>
@@ -44,7 +50,8 @@
   			<a href="redditcrawler.jsp" class="active">Reddit Crawler</a> | 
   			<a href="twittercrawler.jsp" class="active">Twitter Crawler</a> | 
   			<a href="analyzelocaldata.jsp" class="active">Analyze Dataset</a> | 
-  			<a href="analyzemultidata.jsp" class="active">Analyze Multiple Datasets</a>
+  			<a href=analyzemultidata.jsp>Compare Two Datasets</a> | 
+  			<a href=analyzexcrawldata.jsp>Crawl & Analyze BitMEX Data</a>
 		</div>
 	</body>
 </html>

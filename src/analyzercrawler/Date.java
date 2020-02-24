@@ -1,8 +1,10 @@
 package analyzercrawler;
 import java.time.LocalDate;
 import java.time.Month;
+import java.time.temporal.ChronoUnit;
 
 /* We would have extended from the java.util.date class however it is deprecated */
+/* We also would have extended from the java.time.LocalDate class however it is a final class */
 public class Date {
 
     private int day;
@@ -45,6 +47,13 @@ public class Date {
         this.year = Integer.valueOf(date.getYear());
     }
 
+    /* 
+    Description:
+        Returns a string representation of the Date object
+
+    Parameters:
+        format - Specifies the format of Date to output
+    */
     public String toStringFor(String format) {
         switch (format) {
             case "twitter":
@@ -61,42 +70,135 @@ public class Date {
         }
     }
 
+    /* 
+    Description:
+        Returns a string representation of the Date object in the form yyyy-mm-dd
+    */
+    @Override
+    public String toString() {
+        return String.format("%04d-%02d-%02d", this.year, this.month.getValue(), this.day);
+    }
+
+    /* 
+    Description:
+        Returns an array of Date objects containing all Dates between this 
+        Date  and this - n days Date 
+        Index 0 will be this Date object, Index 1 will be this Date - 1 day 
+        and so on. Last element of the array will be this Date - n days.
+
+    Parameters:
+        n - number of days to forward count
+    */
     public Date[] lastNDays(int n) {
         Date[] dates = new Date[n + 1];
         dates[0] = this;
 
         for (int i = 1; i <= n; i++) {
-            LocalDate temp = LocalDate.of(this.year, this.month, this.day).minusDays(i);
-            dates[i] = new Date(temp);
+            dates[i] = new Date(this.toLocalDate().minusDays(i));
         }
 
         return dates;
     }
 
+    /* 
+    Description:
+        Returns an array of Date objects containing all Dates between this 
+        Date  and this + n days Date 
+        Index 0 will be this Date object, Index 1 will be this Date + 1 day
+        and so on. Last element of the array will be this Date + n days.
+
+    Parameters:
+        n - number of days to forward count
+    */
     public Date[] nextNDays(int n) {
         Date[] dates = new Date[n + 1];
         dates[0] = this;
 
         for (int i = 1; i <= n; i++) {
-            LocalDate temp = LocalDate.of(this.year, this.month, this.day).plusDays(i);
-            dates[i] = new Date(temp);
+            dates[i] = new Date(this.toLocalDate().plusDays(i));
         }
 
         return dates;
     }
 
-    public Date minusDays(int n) {
-        LocalDate temp = LocalDate.of(this.year, this.month, this.day).minusDays(n);
-        return new Date(temp);
-    }
+    /* 
+    Description:
+        Returns a Date object with n days subtracted 
 
-    public Date plusDays(int n) {
-        LocalDate temp = LocalDate.of(this.year, this.month, this.day).plusDays(n);
-        return new Date(temp);
+    Parameters:
+        n - number of days to subtract
+    */
+    public Date minusDays(int n) {
+        return new Date(this.toLocalDate().minusDays(n));
     }
 
     /* 
-        Getter & Setters below
+    Description:
+        Returns a Date object with n days added
+
+    Parameters:
+        n - number of days to add
+    */
+    public Date plusDays(int n) {
+        return new Date(this.toLocalDate().plusDays(n));
+    }
+
+    /* 
+    Description:
+        Checks if this other date is after this date
+
+    Parameters:
+        other - the other date to compare to
+    */
+    public boolean isAfter(Date other) {
+        return this.toLocalDate().isAfter(other.toLocalDate());
+    }
+
+    /* 
+    Description:
+        Checks if this other date is before this date
+
+    Parameters:
+        other - the other date to compare to
+    */
+    public boolean isBefore(Date other) {
+        return this.toLocalDate().isBefore(other.toLocalDate());
+    }
+
+    /* 
+    Description:
+        Checks if two dates are the same
+
+    Parameters:
+        other - the other date to compare to
+    */
+    public boolean isEqual(Date other) {
+        return ((this.getDay() == other.getDay()) && (this.getMonthNum() == other.getMonthNum()) && (this.getYear() == other.getYear()));
+    }
+
+    /* 
+    Description:
+        Returns an array of Date object consisting of all Dates between this date and other date inclusive
+        This date object should be the most recent date and is at index 0
+
+    Parameters:
+        other - other boundary of date to compute
+    */
+    public Date[] range(Date other) {
+        int diffDays = (int) other.toLocalDate().until(this.toLocalDate(), ChronoUnit.DAYS);
+        return this.lastNDays(diffDays);
+    }
+
+    /* 
+    Description:
+        Returns a java.time.LocalDate representation of this Date object
+    */
+    public LocalDate toLocalDate() {
+         return LocalDate.of(this.year, this.month, this.day);
+    }
+
+    /* 
+    ** Getter & Setters below
     */
     public int getDay() {
         return this.day;
@@ -106,10 +208,12 @@ public class Date {
         return this.year;
     }
 
+    /* Returns month number (eg. 1 for January, 2 for February ...) */
     public int getMonthNum() {
         return this.month.getValue();
     }
 
+    /* Returns full english name of the month (eg. January, February) */
     public String getMonthName() {
         return this.month.toString();
     }
@@ -126,6 +230,7 @@ public class Date {
         this.year = year;
     }
 
+    /* Overloaded setMonth method to work with various representations of month*/
     public void setMonth(int monthNum) {
         this.month = Month.of(monthNum);
     }

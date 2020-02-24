@@ -1,0 +1,842 @@
+[
+   {
+      "score": 0,
+      "text": "Friends I drank my Dunkin Donuts coffee this morning and decided to make a writeup on Bitcoins price action which includes my analysis at the end Hope you enjoy it"
+   },
+   {
+      "score": 0,
+      "text": "Nice write up I wouldnt have even seen this if you didnt post it here as I basically refresh this page until the next days is up and click through to there"
+   },
+   {
+      "score": 0,
+      "text": "Thanks I rarely look at anything besides the daily and I figured others had a similar habit"
+   },
+   {
+      "score": 0,
+      "text": "Very detailed thanks This is what this sub needs more of"
+   },
+   {
+      "score": 0,
+      "text": "This sub has the feel of a bunch of angry assholes on here Relax and catch the bottom"
+   },
+   {
+      "score": 0,
+      "text": "Yeah Ive been an extra large asshole lately Sorry everyone Ill partially blame it on my flu but yeah Im an asshole even when well I guess"
+   },
+   {
+      "score": 0,
+      "text": "I love this place including the trolls alt shills low content memes and even the mods"
+   },
+   {
+      "score": 0,
+      "text": "Good luck making laughably profitable decisions this year I wish we could all win"
+   },
+   {
+      "score": -8,
+      "text": "lets bear with this guy"
+   },
+   {
+      "score": 8,
+      "text": "What a bunch of bull"
+   },
+   {
+      "score": 0,
+      "text": "that is exactly what I am trying to do  sitting on cash trying to time the bottom "
+   },
+   {
+      "score": -8,
+      "text": "Volume is hot garbage right now Should see a big move this weekend Anyones guess as to which way it goes though Im leaning bearish at the moment due to lower high on the daily timeframe and significant disparity between Longs over Shorts on multiple exchanges Max pain is down"
+   },
+   {
+      "score": -6,
+      "text": "Im wagering that the shift to bearish dump would of happened yesterday to help keep the momentum the bears had with the initial dump Im still bullish but Im out of position right now tho Im looking for a fake dump to 9400 and a big pump Ill try to enter if I can around this price Also the whales playing with pumpingdumping physiological 10k seems to be a common theme recently"
+   },
+   {
+      "score": 0,
+      "text": "Nobody wants to make a move till they see what direction it takes Psychological warfare with that giant dump makes people nervous to long here"
+   },
+   {
+      "score": 8,
+      "text": "Thinking flash down to 9k to clear over leveraged longs then hopefully take more bullish trend"
+   },
+   {
+      "score": 8,
+      "text": "9k  92k  88k  9k  85k  86k  81k Going down so bullish isnt it Gives the hope needed for everyone to get excited about the market doesnt it Are you not excited looking at those numbers"
+   },
+   {
+      "score": 0,
+      "text": "Yes thats exactly whats gonna happen to the price s"
+   },
+   {
+      "score": 0,
+      "text": "Sounds like wishful thinking to me But thats probably how itll play out come April Or if for whatever reason the prehalving rally topped out at 10500 which I doubt"
+   },
+   {
+      "score": 12,
+      "text": "But to answer your question Id be ecstatic to have it drop to 8100 So long as it doesnt go below 6500 tests of lower supports are a blessing Considering how halving years and the subsequent year tend to be very bullish"
+   },
+   {
+      "score": -8,
+      "text": "Youre missing the point No matter what the price is at any moment everyone always wants in cheaper in the hopes that it will be worth more soon until it isnt worth more soon Reversing the climb and dropping below the 200 Day MA moving the weekly and monthly MACD back to negative would not bring the soon increases in price It would bring what might be the worst bear market of the past 2 years Would bitcoin and all cryptocurrencies emerge eventually truth is that would be only a maybe It would depend on if everything else in regulation and general public sentiment remained exactly as they are now Which would be of extremely low probability if that ever played out So those lower prices might not be what anyone really wants if they ever got them"
+   },
+   {
+      "score": 8,
+      "text": "Agree well said macro environment bullish outlooksupport is running on borrowed time"
+   },
+   {
+      "score": 0,
+      "text": "OK I get what youre saying"
+   },
+   {
+      "score": 0,
+      "text": "I guess that Im just too focused on what I think will happen over the next 3 years to really bother paying attention to Well the things you mention But I definitely see your point now Thank you for clarifying it "
+   },
+   {
+      "score": 0,
+      "text": "Wake up sub Something might be happening"
+   },
+   {
+      "score": 0,
+      "text": "My body is ready"
+   },
+   {
+      "score": 5,
+      "text": "Lets overanalyze the last few minutes If you draw a line from here I see a modest 1 million"
+   },
+   {
+      "score": -4,
+      "text": "Bulls delaying the inevitable dump"
+   },
+   {
+      "score": 5,
+      "text": "Golden cross will take 10 days to kick in So I Predict price will begin climbing on the 25th February climb up to 12k then dip before the halving Then it will take about 6 months to reach a new ATH"
+   },
+   {
+      "score": 0,
+      "text": "Agree The ch on the weekly that confirmed a couple weeks ago is still playing out The target of 115 hasnt been hit and volatility of Bitcoin is shaking noobs out of the market on its way up Well establish a range between 12k and 10k before the halving break down into the 9k range again and then slowly rise through the remaining summer months with at least two more big shakeout events before gradually moving to a new ATH"
+   },
+   {
+      "score": 0,
+      "text": "Technically the ch target is 14500 why u got 11500"
+   },
+   {
+      "score": 0,
+      "text": "Conservative"
+   },
+   {
+      "score": -1,
+      "text": "did bears run out of coins to dump I just went 5x long at 96835 stop loss at 9480"
+   },
+   {
+      "score": 0,
+      "text": "Well played"
+   },
+   {
+      "score": 3,
+      "text": "closed my long at 98895 just now for a small profit Turns out bears have more coins to dump at 10k"
+   },
+   {
+      "score": 0,
+      "text": "No the bulls rain out of money to throw away by buying BTC at this level"
+   },
+   {
+      "score": 0,
+      "text": "Ran out of money right around here OI hasnt been the same since"
+   },
+   {
+      "score": 0,
+      "text": "Can you go 100x here pls I cant get my shorts filled"
+   },
+   {
+      "score": 0,
+      "text": "If Shorty cant muster his signature Sunday Morning Dump move with this low volume were gonna pump like mad Youre in a good position"
+   },
+   {
+      "score": 0,
+      "text": "Thank you Im selling 9400 here we come"
+   },
+   {
+      "score": 0,
+      "text": "Dont really go in for chart analysis any more since I mostly do pure systematic shortterm trend following nevertheless this is such a time to look at the tea leaves"
+   },
+   {
+      "score": 0,
+      "text": "Ichimoku top of 1D cloud on the chart is at 8500  can expect it to be a price attractor And aided by the CME gap Also aided by the ridiculous Bitmex premium  414 Jun 26 10034 less perpetual at 9620"
+   },
+   {
+      "score": 4,
+      "text": "Lazybears VAPI a very solid indicator and VRSI contradict each other which tells me market will stay with uncertainty until they align but the IchimokuCMEbitmexpremium tend to make me think the VAPI could break down from here One could wait for signs of downward momentum and open a short at that point which might manage to capture profit off a 900 drop from say 9400 to 8500 provided there is a breakdown Or profit off the Bitmex premium"
+   },
+   {
+      "score": 8,
+      "text": "However on the bullish side BTC has been somewhat correlated to Gold a lot recently and Gold had a good week last week So the broader market could pull us back above 10000 still"
+   },
+   {
+      "score": 0,
+      "text": "A look at SeptemberOctober 2017"
+   },
+   {
+      "score": 0,
+      "text": "Just for perspective"
+   },
+   {
+      "score": 0,
+      "text": "Do you think people werent saying we would never break 5k at that time Of course they were"
+   },
+   {
+      "score": 0,
+      "text": "Im not sure what the relevance is here though"
+   },
+   {
+      "score": 0,
+      "text": "Just upvote and move on bro"
+   },
+   {
+      "score": 0,
+      "text": "You can find many similarities between nownand then if you look at those dates"
+   },
+   {
+      "score": 0,
+      "text": "like what I genuinely dont see it Im curious what youre seeing"
+   },
+   {
+      "score": 0,
+      "text": "Like how prices go up and down"
+   },
+   {
+      "score": 0,
+      "text": "And stay the same"
+   },
+   {
+      "score": 0,
+      "text": "after the big short close yesterday I decided to take a look at the long term trend of longsshorts over the past year since I havent looked at it in a while"
+   },
+   {
+      "score": 0,
+      "text": "LS before and after 139k is a funny picture"
+   },
+   {
+      "score": 0,
+      "text": "I find it quite humorous that Bitfinex is slandered all over the cryptospace for its ties to Tether and yet is trusted implicitly everyday by traders making decisions on its Long Short data"
+   },
+   {
+      "score": 6,
+      "text": "Id never make a decision on this data alone and if I for some reason felt inclined to attempt to use it meaningfully Id make sure it lined up with other exchanges data seeing as bitmex futures have been in constant contango since the 13k top with only brief minutes in discounts I find it pretty easy to believe that traders have been disproportionately long since the top"
+   },
+   {
+      "score": 0,
+      "text": "I also stopped listening to anything regarding tether since BFX very unspectacularly failed to implode after the AprilMay 2019 withdrawalpremium incident"
+   },
+   {
+      "score": 0,
+      "text": "if the exchange has remained solvent since then Im not sure what the point is in continuing to wait for it to fail now"
+   },
+   {
+      "score": 0,
+      "text": "You never wondered WHY no such data on longs and shorts is ever published by OKex BitMex Huobi FTX Deribit ByBit LedgerX Binance Kraken eToro PrimeXBT Fascinating that so many more using the Bitfinex data actually lose more money on Futures and Perp Swaps than ever make isnt it"
+   },
+   {
+      "score": 0,
+      "text": "Dont most of the exchanges you just mentioned have trading desks"
+   },
+   {
+      "score": 0,
+      "text": "The data on longs and shorts is published every minute of the day Its always the same exact amount"
+   },
+   {
+      "score": 0,
+      "text": "No idea what your last sentence means"
+   },
+   {
+      "score": 0,
+      "text": "Binance margin was also introduced around that time giving traders a nonFinex option"
+   },
+   {
+      "score": 0,
+      "text": "Sorry Im a bit of a novice but what correlation to price do you see then"
+   },
+   {
+      "score": 0,
+      "text": "Hes implying another leg up if youre patient"
+   },
+   {
+      "score": 0,
+      "text": "Exactly The only thing were waiting for here is for more leveraged longs to open before this rocket takes off for real"
+   },
+   {
+      "score": 0,
+      "text": "lol P"
+   },
+   {
+      "score": 0,
+      "text": "I dont really draw conclusions from the LS ratio anymore as its not particularly tradable data but the chart basically demonstrates that the amount of people longing after 13k top compared to people shorting is way higher than before the top lol"
+   },
+   {
+      "score": 0,
+      "text": "What are we seeing here sloppy im confused"
+   },
+   {
+      "score": 0,
+      "text": "Basically shorts held all the way up from 5k to 13k capitulated and have been too scared to reopen p"
+   },
+   {
+      "score": 0,
+      "text": "so the longsshorts ratio has been lopsided literally and only since 13k top"
+   },
+   {
+      "score": 0,
+      "text": "This action being weak af is hard to deny but the chandle is coming in such a pretty way Will essentially need a whale green dildo to top it off since bulls are on a coffee break so thats the part that may not materialize"
+   },
+   {
+      "score": 2,
+      "text": "Its always such a bitch to shift momentum from bear to bull and vice versa Hard to expect this pattern to play out"
+   },
+   {
+      "score": -4,
+      "text": "A huge BTC short covered on Bitfinex"
+   },
+   {
+      "score": 0,
+      "text": "What does it mean"
+   },
+   {
+      "score": -4,
+      "text": "Joe closed his short"
+   },
+   {
+      "score": 4,
+      "text": "Cool so we are ready for big pump"
+   },
+   {
+      "score": 0,
+      "text": "Maybe But the longshort ratio on Bitfinex is insane now"
+   },
+   {
+      "score": 0,
+      "text": "40k BTC longs vs 4k BTC shorts Some people say he covered into his own ask walls lol Well see Will be an interesting ride"
+   },
+   {
+      "score": 8,
+      "text": "Joe is quite bullish on BTCUSD in the 2020s by the way He also uses multiple exchanges"
+   },
+   {
+      "score": 4,
+      "text": "Pump"
+   },
+   {
+      "score": 0,
+      "text": "Bartholomew J Simpson"
+   },
+   {
+      "score": 0,
+      "text": "Dont do that Dont give me hope"
+   },
+   {
+      "score": 0,
+      "text": "Uh ohhhh"
+   },
+   {
+      "score": 0,
+      "text": "Fuck yeah"
+   },
+   {
+      "score": -8,
+      "text": "All this bearish sentiment today and now were within 100 of 10k already"
+   },
+   {
+      "score": 0,
+      "text": "Castrated bears fighting the trend"
+   },
+   {
+      "score": -4,
+      "text": "honestly i thought with how long we had floated here that we might go up but the bounce on this dump is not looking that encouraging as of right now at the same time the dump itself hasnt been exactly super strong either it looks like everyone else is just waiting for someone else to make a move"
+   },
+   {
+      "score": 0,
+      "text": "No trade zone Just wait for a direction A safe long is above 10500 a safe short is probably below 8800 ish"
+   },
+   {
+      "score": 4,
+      "text": "Or long support at 88009200 and see how it works out Thats my plan"
+   },
+   {
+      "score": 0,
+      "text": "Safe and bitcoin in one sentence haha good one"
+   },
+   {
+      "score": 0,
+      "text": "I mean youre in a bitcoin trading sub Were not talking about index funds here Its all relative"
+   },
+   {
+      "score": 0,
+      "text": "oh yeah for sure but sometimes i like to throw a small yolo on the books"
+   },
+   {
+      "score": 0,
+      "text": "Good work soldier Leroy Jenkins smiles upon you"
+   },
+   {
+      "score": 0,
+      "text": "Didnt everyone wipe on that run "
+   },
+   {
+      "score": -4,
+      "text": "Another massive short just paid off"
+   },
+   {
+      "score": 8,
+      "text": "I think Im done shorting for now and we will return to our regular scheduled bull programming shortly"
+   },
+   {
+      "score": 0,
+      "text": "Although I still like idea of 92"
+   },
+   {
+      "score": 0,
+      "text": "that slow but meticulous buying bot from the summer is making an appearance h w d"
+   },
+   {
+      "score": 1,
+      "text": "I see you little one"
+   },
+   {
+      "score": 0,
+      "text": "Good eye Called it"
+   },
+   {
+      "score": 0,
+      "text": "charts never lie"
+   },
+   {
+      "score": 0,
+      "text": "Whats h w d"
+   },
+   {
+      "score": 0,
+      "text": "hour week and day charts"
+   },
+   {
+      "score": 0,
+      "text": "Breaking ATH feels impossible"
+   },
+   {
+      "score": -5,
+      "text": "Yes dude spoileralert a 1000 5x lev long wont make you rich in 4 months Dont Zoom out for the greater picture to find out that this time around in 2019 we were  3k in December 3 months back we were at 6k and here we are doom and glooming in the 9ks"
+   },
+   {
+      "score": 0,
+      "text": "impatient noobs will stay poor only a certain few will have the patients and strength in this market to stay in it multi year ride the Pumps and dumps and really be there with a Big Big Cold storage Stack when Retail schmucks Who stay poor too come back"
+   },
+   {
+      "score": 0,
+      "text": "How many months will it take to make me rich"
+   },
+   {
+      "score": 0,
+      "text": "Asking the real questions "
+   },
+   {
+      "score": 0,
+      "text": "i entered the market in 2017 and it took me a couple of years to actually learn this fun time to come in for sure but i definitely ended up paying some dues from the bad habits formed by that entry period"
+   },
+   {
+      "score": 0,
+      "text": "oh no im still way way up i entered in early 2017 so prices were still relatively low i was saying that the intense and near constant ride upwards caused me to form bad habits that i paid some dues for over 2018 while i learned to be patient most of 2018 was a constant disbelief that the market wasnt about to go bonkers again since that was all i had known"
+   },
+   {
+      "score": 0,
+      "text": "anyway i was agreeing with the above on learning to be patient thats all haha"
+   },
+   {
+      "score": 4,
+      "text": "1000 5x lev long looks like a good trade now tho"
+   },
+   {
+      "score": 0,
+      "text": "While writing it i thought so myself dude "
+   },
+   {
+      "score": 0,
+      "text": "What changed in 20 minutes"
+   },
+   {
+      "score": 0,
+      "text": "we drop like 4 and everyone gets so melancholy zoom out and see how many days we have had a 9500 close at the end of the day This time a few months ago we were sub 85 patience Steady growth is better than hyperbolic pump and dump"
+   },
+   {
+      "score": 0,
+      "text": "Im more concerned with the lower high on the daily than percentage of moves right now"
+   },
+   {
+      "score": 3,
+      "text": "If I buy 0001 BTC from you for 201 will that make you feel better"
+   },
+   {
+      "score": 0,
+      "text": "I offer twenty two cents for point oh oh oh oh one"
+   },
+   {
+      "score": 0,
+      "text": "Can you pay with maxcoin"
+   },
+   {
+      "score": 0,
+      "text": "If it happens its not going to happen until 2021"
+   },
+   {
+      "score": 0,
+      "text": "Much like the late 2013 high was not eclipsed until well after the 2016 halving"
+   },
+   {
+      "score": 0,
+      "text": "I can wait a year lol"
+   },
+   {
+      "score": 0,
+      "text": "Why does it matter how it feels Use your brain and figure out the probability that it will break ATH And no it isnt either 0 or 100"
+   },
+   {
+      "score": 0,
+      "text": "But I cant say its not humorous to see doubt slowly start to creep into the permabulls minds as they start to grasp the obscenely obvious that the rest of us have been aware of for a year or two"
+   },
+   {
+      "score": -5,
+      "text": "Wait no though its literally is 0 or 100 Either it languishes under ATH until the heat death of the universe or somewhere between now and then it breaks the ATH Its literally binary from a physics standpoint"
+   },
+   {
+      "score": 0,
+      "text": "Just no The probability of some future event happening isnt 0 or 100 just because the event is binary"
+   },
+   {
+      "score": 0,
+      "text": "Well to be fair it is if you subscribe to determinism But even in that case if your ability to observe the future event now via anticipating the chain reaction of events is low then it becomes a sort of Schrodingers cat situation"
+   },
+   {
+      "score": 0,
+      "text": "Basically it might actually be exactly 0 or 100 but given the information youre able to ascertain right now you might assign a probability somewhere in between"
+   },
+   {
+      "score": 0,
+      "text": "What a meaningless mumbo jumbo are you a Deepak Chopra reader Trying to use advanced but irrelevant physicsmath concepts while you fail at basic logic is tragic"
+   },
+   {
+      "score": 0,
+      "text": "What are you so angry about"
+   },
+   {
+      "score": 0,
+      "text": "Maybe that this subthread started a bit silly and ends up unproductive sorry for overreacting "
+   },
+   {
+      "score": 0,
+      "text": "Its just about language and simple logic not quantum physics From what you wrote Im sure we agree that even if you are a determinist it doesnt make you an omniscient being able to determine the future so you have to rely on probabilities And some events obviously have 0 or 100 chance of happening which my previous post didnt exclude so I didnt understand what point you were trying to make"
+   },
+   {
+      "score": 0,
+      "text": "but what if you could review all possible timelines in how many of those do we win"
+   },
+   {
+      "score": 0,
+      "text": "1"
+   },
+   {
+      "score": 0,
+      "text": "Feels has got me this far I sold Dec 2017 because i felt the euphoria I rebought in Jan of 2019 because I felt the dispair Trading on emotion works pretty good"
+   },
+   {
+      "score": 0,
+      "text": "So two trades in the past three years went your way Yes that is proof that trading on your feelings and emotion is the smart way to go"
+   },
+   {
+      "score": 8,
+      "text": "BULLISH"
+   },
+   {
+      "score": 0,
+      "text": "Hmm yes It does"
+   },
+   {
+      "score": 0,
+      "text": "But I think well break it by the end of next year "
+   },
+   {
+      "score": 0,
+      "text": "Any TA or FA to support that"
+   },
+   {
+      "score": -4,
+      "text": "Oh well if its not going down its probably going up Overly simplistic but I covered most of my remaining short for 1 loss I made a killing on the big drop a few days ago so its all good"
+   },
+   {
+      "score": -4,
+      "text": "I still have a small short though because the odds of a quick 5 drop are probably higher than a quick 5 rise And at this point everyone is ready to reshort over 10100"
+   },
+   {
+      "score": 4,
+      "text": "Do you guys realize that you can trade long too"
+   },
+   {
+      "score": 4,
+      "text": "Seems like most in this sub are on the short bus Not a good place to be as this bull market picks up steam You got lucky on one trade and made 10 Whoop dee do Longs make hundreds or thousands of percent by playing lower leverage and longer time frames"
+   },
+   {
+      "score": 0,
+      "text": "Do you guys realize that you can trade both short and long Thats what I do But limited thinking from limited minds I get it"
+   },
+   {
+      "score": 0,
+      "text": "Everything is 0 or 100"
+   },
+   {
+      "score": -3,
+      "text": "Every trade is at risk of getting rekt or making a fortune"
+   },
+   {
+      "score": 4,
+      "text": "You can only either long or shortyou cant do both quite often and make profits on both sides of the market"
+   },
+   {
+      "score": 0,
+      "text": "The bull market already lost steam 1049 was probably the beginning of the next bear marketbut time will tell"
+   },
+   {
+      "score": -4,
+      "text": "I went with this and was happy to close Now I find myself in an even larger short since it went above 97just cant help it "
+   },
+   {
+      "score": 0,
+      "text": "Sometimes not smart to fight the market although it does pay off well if you get the top or bottom of a reversal"
+   },
+   {
+      "score": 0,
+      "text": "This market is so manipulated and could BGD or BRD at any moment so I try not to have a large position when it is mostly trading sideways"
+   },
+   {
+      "score": 0,
+      "text": "Dip soon"
+   },
+   {
+      "score": 0,
+      "text": "Probably"
+   },
+   {
+      "score": 0,
+      "text": "can you explain what those lines mean"
+   },
+   {
+      "score": 0,
+      "text": "They show the authors perception of where the price needs to pass in order for rally to continue Note I said perception That is all it is The lines are meaningless"
+   },
+   {
+      "score": 0,
+      "text": "Yep although I agree that we are going down anyone can draw lines on a chart to fit their agenda"
+   },
+   {
+      "score": 0,
+      "text": "those lines are especially meaningless though"
+   },
+   {
+      "score": 0,
+      "text": "i thought it was a joke"
+   },
+   {
+      "score": 0,
+      "text": "What are some of your investment strategies Just hodl Strictly high leverage futures Whats your game plan overall"
+   },
+   {
+      "score": 0,
+      "text": "I know to Do my diligence Im just seeing what others are doing and hoping to have an interesting thread"
+   },
+   {
+      "score": 12,
+      "text": "Wait till it drops to levels nobody ever expected and everybody thinks Bitcoin is dead Then buy and wait for The moon"
+   },
+   {
+      "score": 0,
+      "text": "Passive and diversified while gambling on Bitmex with a small stack"
+   },
+   {
+      "score": 0,
+      "text": "I trade on Bitmex because I have too small a trading stash to trade in other exchanges The way I trade I call it a brute force approach"
+   },
+   {
+      "score": 4,
+      "text": "Im basically DCAing on the July futures 5 a week I have buy orders for every 200 drop and sell orders for every 200 rise about 16 of my stash on Bitmex Whenever a buy order gets filled I replace it with a sell order 200 above it whenever a sell order gets filled I replace it with a buy order 200 under it Between the Perpetual Swaps March Futures and July Futures I have a 045x long with an entry price of 9300"
+   },
+   {
+      "score": 0,
+      "text": "Im sticking to that strategy until I have 1000 in my trading stash and then I can try more elaborate things"
+   },
+   {
+      "score": 0,
+      "text": "A 5 market maker What a time we live in Wishing u the best luck"
+   },
+   {
+      "score": 0,
+      "text": "If things go well Ill be buying 6 a week next year "
+   },
+   {
+      "score": 0,
+      "text": "hold until 3x and either fully cash out or go for multiple lambos"
+   },
+   {
+      "score": 4,
+      "text": "currently at 15x so hopefully cryptoland wont make me wait long"
+   },
+   {
+      "score": 10,
+      "text": "You cant buy a lambo with 0005 Bitcoin"
+   },
+   {
+      "score": 0,
+      "text": "I play this as an accumulation game so any move I make is to stack sats This underlying strategy helps me stay clear headed"
+   },
+   {
+      "score": 0,
+      "text": "Let BTC ravage me if he wants and when he wants while throwing what I got after a pounding"
+   },
+   {
+      "score": 0,
+      "text": "I dont invest in crypto almost purely because of govt regulation and outright bans It will not be allowed to grow any larger than it is right now and will more likely see the market contract under all the pressure"
+   },
+   {
+      "score": 0,
+      "text": "So I just daytrade and focus on reversals for big winsand try to minimize the losses there of course"
+   },
+   {
+      "score": 0,
+      "text": "Thank you for your insight Mr Jamie Dimon"
+   },
+   {
+      "score": 0,
+      "text": "And he was absolutely 100 right with those comments Do you really think he is a dumb guy"
+   },
+   {
+      "score": 0,
+      "text": "Which version the 2017 Jamie Dimon or the 2019 Jamie Dimon"
+   },
+   {
+      "score": 0,
+      "text": "Whats the difference"
+   },
+   {
+      "score": 0,
+      "text": "2017 Dimon called bitcoin a fraud and was anticrypto Recently hes more open to cryptos potential From what I understand let me know what Ive missed"
+   },
+   {
+      "score": 0,
+      "text": "This is inaccurate He called bitcoin a fraud and the media took it and ran with it"
+   },
+   {
+      "score": 0,
+      "text": "He stated later on that he didnt want to be associated with it or the figurehead for being anti btc"
+   },
+   {
+      "score": 0,
+      "text": "He is interested in blockchain as most banks are in order to leverage it to their own advantage nothing to do with the coin we are discussing"
+   },
+   {
+      "score": 0,
+      "text": "Im not agreeing with him but he also felt comfortable enough to say that way back when nor was he the only finance type to because it reflected the streets view on the subject"
+   },
+   {
+      "score": 0,
+      "text": "Are Jamies views about crypto the same today as they were in 2017"
+   },
+   {
+      "score": 0,
+      "text": "Decentralized crypto Absolutely"
+   },
+   {
+      "score": 0,
+      "text": "Grey market dollars that he could push are irrelevant to this on par with Libra"
+   },
+   {
+      "score": 0,
+      "text": "I think I see a descending triangle forming Lower highs with a base of around 95k"
+   },
+   {
+      "score": 0,
+      "text": "What Im watching"
+   },
+   {
+      "score": 0,
+      "text": "So I put up another two bitcoins to change to stablecoins at 9700 and my order still wont get filled so Im going to have to move that down I still dont understand why there are so many analysis articles looking solely at TA claiming that prices are going to move up There are very few articles even today that are predicting downward movement"
+   },
+   {
+      "score": 8,
+      "text": "These sites fail to consider internal politics and events like the halving and then express surprise the next day when what they consider an improbable move down happens I wonder if the fact that these sites are still mostly bullish further supports the idea that this is a local top"
+   },
+   {
+      "score": 0,
+      "text": "The worst place to go for predictions is the cryptocurrency media as some of the authors apparently are from the investment field and do not have a fundamental understanding of cryptocurrency concepts"
+   },
+   {
+      "score": 8,
+      "text": "So your limit order isnt filled yet and crypto articles are bullish when are they not therefore top Maybe youre right this time but if anyone traded on this process they would lose everything eventually"
+   },
+   {
+      "score": -3,
+      "text": "Hes mostly mad for capitulating much lower He posted that he had to sell lots of his mined BCH a couple months ago For a miner whos daily bread relies on the price of his block rewards youd think he would be smarter about sowing market goodwill Then again maybe hes only another of the many larpers that plague this sub"
+   },
+   {
+      "score": -8,
+      "text": "MattAbrams was bearish the entire way up but from what I remember he said he was basically near panic selling as many coins as he could 1113k in June He might have a bias but at least he restrains himself until things get euphoric lol"
+   },
+   {
+      "score": 0,
+      "text": "This post is false"
+   },
+   {
+      "score": 0,
+      "text": "I sold hundreds of BCH last week not months ago Read my most recent posts Before that I only paid out enough mined blocks at the end of the month to cover expenses"
+   },
+   {
+      "score": -6,
+      "text": "Its weird that this place seems to be the only place in the world where if you tell people to sell BCH then actually sell hundreds of it for 415 and now its worth 375 you get posts like this claiming that this sequence would somehow make me mad"
+   },
+   {
+      "score": 0,
+      "text": "My limit order obviously has no impact on the direction of the market"
+   },
+   {
+      "score": 16,
+      "text": "On the other hand I hadnt considered that the articles might be biased bullish all the time because people simply dont pay attention to whether they are correct and simply click on bullish articles That might explain why there are so many articles predicting a 100000 rise right around the halving and such"
+   },
+   {
+      "score": -1,
+      "text": "Lmao Let us praise Satoshi that you will have half the bitcoins to sell in May"
+   },
+   {
+      "score": 8,
+      "text": "Bullish commentary gets the clicks Its why I typically avoid those articles and try to focus on what the charts are telling me and apply that to my trading style"
+   },
+   {
+      "score": 0,
+      "text": "Because articles dont get paid on commission or anything They make money purely from views They are simply writing based on what type of articles are successful People are clicking more on articles predicting up"
+   },
+   {
+      "score": 11,
+      "text": "Why are people that way Well probably because most unsophisticated investors just want to go with the flow Something goes up they see its been going up they think maybe it will keep going up But theyre also a bit scared because they know buying high is bad So they set out to do some research  really they are just looking for confirmation that its safe to buy As such they gravitate towards the bullish headlines find the logic to back up their emotions and feel better about buying"
+   },
+   {
+      "score": 0,
+      "text": "Fuck you have me all figured out You wanna go out or something"
+   },
+   {
+      "score": 0,
+      "text": "Do you need the cash or something Are you anticipating a big move down I cant imagine selling right now at what is close to the local bottom"
+   },
+   {
+      "score": 0,
+      "text": "I too couldnt fill my limit shorts"
+   },
+   {
+      "score": 0,
+      "text": "Guess what i had to do"
+   },
+   {
+      "score": 1,
+      "text": "Forming a little red anal training dildo on the 5 min"
+   }
+]

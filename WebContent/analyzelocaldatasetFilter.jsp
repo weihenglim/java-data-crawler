@@ -53,7 +53,6 @@
 			/* To print out the information contained inside the text file */
 			while(true)
 			{
-				out.print(commentArr[index]);
 				index++;
 				out.print(commentArr[index]);
 				index++;
@@ -73,11 +72,12 @@
 		%>
 		<div class="navbar">
 			<br>
-  			<a href="index.jsp" class="active">Home</a> | 
+			<a href="index.jsp" class="active">Home</a> | 
   			<a href="redditcrawler.jsp" class="active">Reddit Crawler</a> | 
   			<a href="twittercrawler.jsp" class="active">Twitter Crawler</a> | 
-  			<a href="analyzelocaldata.jsp" class="active">Analyze Dataset</a> | 
-  			<a href="analyzemultidata.jsp" class="active">Analyze Multiple Datasets</a>
+  			<a href="analyzelocaldata.jsp" class="active">Analyze Single Dataset</a> | 
+  			<a href=analyzemultidata.jsp>Compare Two Datasets</a> | 
+  			<a href=analyzexcrawldata.jsp>Crawl & Analyze BitMEX Data</a>
 		</div>
 	</body>
 </html>

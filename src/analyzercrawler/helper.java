@@ -1,11 +1,11 @@
 package analyzercrawler;
-
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import java.io.File;
 import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.util.HashMap;
 
 /* 
     This class will contain all the miscallenous methods, variables & fields that will be used project-wide
@@ -32,7 +32,8 @@ public class helper {
 
     public static String getJson(String url) {
         try {
-            return Jsoup.connect(url).ignoreContentType(true).execute().body();
+        	/* Setting the userAgent forces the web server to recognize this application as a web browser instead of a bot */
+        	return Jsoup.connect(url).userAgent("Mozilla/5.0").ignoreContentType(true).execute().body();
         }
         catch (IOException e) {
             e.printStackTrace();
@@ -75,8 +76,19 @@ public class helper {
         return output;
     }
 
-    public static void cleanComment(Comment comment) {
-        comment.setText(comment.getText().replaceAll("[^a-zA-Z0-9\\s]", ""));
+    public static String clean(String comment) {
+        /* Remove URL since we can't parse those */
+        comment = comment.replaceAll("http?[\\S]+", " ");
+
+        /* Remove trailing and leading space */
+        comment = comment.trim();
+
+        comment = comment.replaceAll("[ ]{2,}", "");
+
+        /* Remove any symbols, punctuations */
+        comment = comment.replaceAll("[^a-zA-Z0-9\\s]", "");
+
+        return comment;
     }
 
     public static void createFileIfNotExist(String path) {
@@ -87,5 +99,4 @@ public class helper {
     public static String toCamelCase(String s) {
         return s.substring(0, 1).toUpperCase() + s.substring(1).toLowerCase();
     }
-
 }
