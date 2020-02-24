@@ -10,7 +10,6 @@ public class Analyzer {
     /* Default search, last 7 days, keyword = bitcoin */
     public static String analyze(String path) {
         Date now = new Date();
-        now = now.minusDays(1);
         Date weekAgo = now.minusDays(7);
 
         return analyze("bitcoin", now, weekAgo, path);
