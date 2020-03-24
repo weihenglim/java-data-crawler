@@ -1,0 +1,4 @@
+redditcrawl.cpp is main.cpp(to run)
+CrawlReddit.cpp is my class 
+i use 2 lib jsoncpp n libcurl
+to dl just use vcpkg(much faster way)
