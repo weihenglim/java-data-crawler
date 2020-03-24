@@ -1,0 +1,191 @@
+[
+{ score:	-4
+text:	I used to have existential fears of bitcoin's demise. Now it's all price action. Bitcoin is here to stay... It's got its claws into the big system. I also used to say "0 or 10,000". With 11,000 holding strong, I'm trying to come up with a new paradigmatic explanation... Perhaps "10,000 or 1,000,000"? Seems crazy, but it's hard to explain how crazy 10,000 seemed about 6 years ago.}
+
+{ score:	3
+text:	I’m going to stop checking this shit on the weekends. At least I’m going to try - it’s gotten to be such a bad habit. I think weekends are no longer influenced by waves of retail fish and/or natural demand - they are driven entirely by whales hunting stops. It is way too easy for these guys to throw the price around when there is very low liquidity, and too much incentive to do so with bitmex. 
+
+But I’ve noticed this power is significantly diminished during the trading week. This is actually a really good thing - it’s a sign of the asset becoming more deeply rooted in the global financial system (in the way gold is) and being held by professional strong hands with lots of money and patience. As liquidity continues to grow (which I expect it to), the weekend volatility should shrink over time, along with bitmex’s influence.
+
+I actually expect to see weekend and overnight gapped charts in the not too distant future. This market is just too insane for big money players to watch.
+
+Peace and good luck to you gents ✌️}
+
+{ score:	0
+text:	I keep having these flashes of thought in which a perfect storm of negative bond yields and climbing bitcoin prices post halvning creates a tidal wave of biblical proportions of money coming into the crypto space, just in time to repeat the 4 year mania cycle.  Is anyone else thinking this might happen?}
+
+
+{ score:	5
+text:	I’d be a millionaire by now if I’d inversed myself on this market.}
+
+{ score:	0
+text:	This close could be exciting. On its way to be the highest weekly close since Jan 2018
+
+Edit: fuck yes
+
+Edit: hell no}
+
+{ score:	0
+text:	Coinbase Top holder activity 
+
+The percentage of Coinbase customers with large BTC balances (top 10%) who increased or decreased their net position in BTC over the past 24 hours through trading.
+
+67% buy
+
+33% sell}
+
+{ score:	7
+text:	I'm bullish. Nice hidden bull divs on the 4hr, will be valid unless we get under 10.8k but I just can't see it happening. Dumps have been hard to come by recently, this is just some healthy consolidation after our run from 9.5k-12k.
+
+&amp;#x200B;
+
+On the daily we topped out around 12k, which was a perfect level to stop as it just prevented us painting a huge hidden bear div on the daily, any higher and it would have been ugly. Some might disagree with me but I do not think this is a coincidence.
+
+&amp;#x200B;
+
+Lower timeframes don't look great so probably more chop to come but I think we'll be getting out of this over the next week hopefully.}
+
+{ score:	0
+text:	what happened to  u/Merlin560 ?}
+
+{ score:	0
+text:	CME opens up shop in 20 minutes, lol}
+
+{ score:	0
+text:	If we close weekly above 11.6.. highest weekly close since since January 2018 😯
+
+A lot.. i mean a lot of confluence in this area. Anything above 11650 and this was prob a huge ~~bull~~ bear trap. 
+
+There is a bear and bull case here... I’m pretty torn right now on where this goes. All i know is a higher low and lower low.. 
+
+Next 2-4 hours should be sweet}
+
+{ score:	0
+text:	Honest question from someone totally new to TA...what is the point of highlighting patterns when:
+• a handful of entities seem to exercise the ability to manipulate the price of BTC
+• random world events may alter the price of BTC, e.g. Trump tweets 
+It seems that it’s a futile effort to attempt to predict what is otherwise seemingly unpredictable (point 2) or manipulatable.
+
+Thanks}
+
+{ score:	4
+text:	shit keeps gettin eaten up. hammer on the 4h, will have a retest of 11800 soon. Alt pumps will slow down eventually, where do you think it's going after that? Enough to get us above 12k this week most likely.}
+
+{ score:	0
+text:	So much spoofing and walking the price down going on.}
+
+{ score:	0
+text:	I smell a breakout}
+
+{ score:	3
+text:	11111 , such a beautiful number to buy at}
+
+{ score:	0
+text:	BTFD mode engaged.}
+
+{ score:	0
+text:	Trying very hard to keep this down. 200+ coin walls at random spots on CBP like 11440??? Since when is that a resistance line. Then they pull it and move it somewhere else randomly.}
+
+{ score:	0
+text:	GENTLESIRS}
+
+
+{ score:	16
+text:	People act overly cautious here. I treat that as hidden bullishness.}
+
+
+{ score:	3
+text:	Anyone give me a few tips to buying / trading bitcoin just started}
+
+{ score:	0
+text:	https://twitter.com/zhusu/status/1160746557844492293/photo/1
+
+Goldman Sachs' securities division calling for a rise to $13,971?}
+
+{ score:	0
+text:	Given that we're rather stable, I think this may just be a correction of the move from 9100 to 12300, instead of a trend reversal.
+
+To further underline: the last time we reached local tops at 13900 and 13100 and turned around, the moves were much more violent.}
+
+{ score:	0
+text:	any guess as to when this gets some honest to god human volume again?}
+
+{ score:	-3
+text:	Hi, a brief question. I will go to china in the coming weeks, is it possible from there to access crypto exchanges? I could of course use a VPN but like is it legal/tolerated? Or should I better not?
+
+Thanks in advance}
+
+{ score:	-1
+text:	Woke up this morning and saw I was stopped out at 11 135 on binance.  Within 35 minutes after the price spiked to 11 483.
+
+I only put 50% of the stack under stop loss because I knew this might happen.  ;)}
+
+{ score:	-15
+text:	As I see it. Some indicators are pointing to a target for a correction to around 8-9k. But for a correction to actaully play out people have to dump in droves. It may be that it is not worth the hassle (and risk) for market makers and whales to push the price to such a low for a mere 30% gain (if optimally executed). There is much more to gain by slowly accumulating coins and boiling the frogs/bears.
+
+We'll know soon.
+
+FYI: Bigger alts sitting at key support.
+
+Edit: Total market cap has strong support in the $250MM area. Currently sitting at $290MM. That's not even 15%.}
+
+
+{ score:	0
+text:	Newb question incoming:
+
+Is there a way on BitMex to put in a limit buy/sell and have an automatic sell/buy that triggers if the original order is hit?
+
+Like for example, if I have a limit buy at 11000, and the price hits 11000 but not my order, which messes things up}
+
+{ score:	-4
+text:	Hi Guys, please bear with me, I am still in the process of learning.
+
+If you hedge (that is what I think it is called )  25% of your trading stack at the top before it drops.  Meaning, you sell 25% before it drops.  Will this be substantial in protecting your long or does it all depend on how far it drops. ( Obviously, I guess)   I'm trying to figure out how much of my stack to sell before or at  a drop to protect a long.  How do you guys calculate it or gauge it?  Or is the best strategy to maybe just straddle?  Using our most recent dip as an example.  Assuming you can perfectly time the bottom of the dip again to buy back in what you sold.  I am really just for now applying trial and error but feel like I have no Idea what Im doing. hahahah}
+
+{ score:	4
+text:	Thus is actually holding up quite nicely. Might be a good long entry if nothing else follows here.}
+
+{ score:	1
+text:	The 1 hourly EMA ribbons look exactly like July 27-29}
+
+{ score:	0
+text:	Stupid question, when does the usdcnh open today?}
+
+{ score:	-3
+text:	The Bear Traps are getting weaker. But the reaction from the market is getting more extreme. 
+
+**PANIC SELL**
+
+What a swindle they’ve pulled.
+
+Someone is scooping up an immoral amount of coins in this dip. Iv been watching wall after wall suck emotional sellers dry. 
+
+Let me tell you. Henry The Hoover is loose and he’s gone full rogue. 500 BTC here, another 500 BTC there. It’s been going on for a day now. I’m calling it. We don’t get another leg down.
+
+This is dip and it sure tastes like guacamole.
+[Pump Soon]}
+
+{ score:	0
+text:	[There](https://www.reddit.com/r/BitcoinMarkets/comments/cod9ji/daily_discussion_saturday_august_10_2019/ewk3zn8?utm_source=share&amp;utm_medium=web2x) it is}
+
+
+{ score:	0
+text:	If a hypothetical alliance group of 10 people had an equivalent to 500M in USD, with bitmex leverage trading could you seriously move the market?
+
+Edit: is there a tool or an equation to figure this out
+
+Although I would never do this just trying to wrap my head around a few things}
+
+{ score:	3
+text:	So buy?}
+
+{ score:	7
+text:	**HERE WE GO FELLAZ**
+
+I’m so long in the tooth, I used some gains to buy a coffin.}
+
+{ score:	0
+text:	}
+
+]
+
