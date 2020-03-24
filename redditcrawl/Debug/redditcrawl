@@ -1,0 +1,5 @@
+  CrawlReddit.cpp
+C:\Users\Brandon\source\repos\redditcrawl\redditcrawl\CrawlReddit.cpp(25,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Brandon\source\repos\redditcrawl\redditcrawl\CrawlReddit.cpp(182,31): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Brandon\source\repos\redditcrawl\redditcrawl\CrawlReddit.cpp(216,23): warning C4018: '<': signed/unsigned mismatch
+  redditcrawl.vcxproj -> C:\Users\Brandon\source\repos\redditcrawl\Debug\redditcrawl.exe
